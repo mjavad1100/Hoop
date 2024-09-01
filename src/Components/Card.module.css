@@ -1,0 +1,81 @@
+.card{
+    width: 310px; 
+    /* padding:12px; */
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-color:white;
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    padding: 12px;
+
+}
+.card img{
+    width: 125px;
+    margin: auto;
+    border-radius: 20px;
+    height: 125px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    /* padding: 5px; */
+}
+.card h3{
+    color: black;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+.card p{
+    color:black;
+    /* background-color: darkgray ; */
+    font-size: 0.9rem;
+    margin: 5px;
+    text-align: end;
+    
+}
+.actions{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+.actions a{
+    font-size: 1.5rem;
+    height: 25px;
+    color:darkcyan;
+    cursor: pointer;
+    margin-left: 15px;
+}
+/* .action div{
+    display: flex;
+    align-items: center;
+}
+. actions div span{
+    width: 20px;
+    text-align: center;
+    margin: 0 10px;
+} */
+ .actions div button{
+    color: darkcyan;
+    background-color: lightgrey;
+    border: none;
+    font-size: 1.5rem;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    padding: 3px;
+    margin-right: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+ }
+ .mytitle{
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+    padding: 5px;
+    float: right;
+
+    
+ }

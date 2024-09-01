@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.products{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sidebar{
+    display: flex;
+    align-content: center;
+    position:sticky ;
+    border-radius: 10px;
+    margin-bottom:15px ;
+    margin-top: 175px;
+    /* width: 500px; */
+    align-items: center;
+    /* position: sticky;
+    top: 4px; */
+}
+.mylist{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.sidebar li{
+    padding: 30px;
+    color:darkcyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.sidebar .mynav{
+    width: 112px;
+    height: 125px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: auto; */
+    justify-content: center;
+    border-radius: 20px;
+
+}

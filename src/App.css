@@ -1,0 +1,9 @@
+* body{
+    background-color:#e1e3e2;
+}
+:root {
+    --swiper-navigation-size: 28px;
+    --swiper-navigation-top-offset: 50%;
+    --swiper-navigation-sides-offset: 5px;
+    --swiper-navigation-color: rgb(51, 118, 118);
+  }
