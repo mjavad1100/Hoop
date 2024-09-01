@@ -51,14 +51,14 @@ function ProductsPage() {
                 <img src={img1} style={{width:"250px" ,height:"200px"}}/>
                 <div style={{flexDirection:"row", display:"flex"}}>
                 <input style={{backgroundColor:"lightblue", borderRadius:"10px",padding:"4px", border:"1px solid darkcyan"}} type="text" placeholder='Search' value={search} onChange={e => setSearch(e.target.value.toLowerCase().trim())} />
-                <button onClick={searchHandler} style={{borderRadius:"50%", border:"2px solid darkcyan", color:"darkcyan",marginLeft:"2px"}}><ImSearch fontSize={"1.5rem"} /></button>
+                <button onClick={searchHandler} style={{borderRadius:"20px", border:"2px solid darkcyan", color:"darkcyan",marginLeft:"2px"}}><ImSearch fontSize={"1.5rem"} /></button>
                 </div>
             </div>
             <div className={Styles.container}>
                 <div className={Styles.sidebar}>
                     <Swiper
                         navigation={true} modules={[Navigation]}
-                        spaceBetween={0}
+                        spaceBetween={20}
                         slidesPerView={3}
                         onSlideChange={() => console.log('slide change')}
                         onSwiper={(swiper) => console.log(swiper)
