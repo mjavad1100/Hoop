@@ -9,6 +9,7 @@ import Styles from './ProductsPage.module.css';
 import { BsCupHotFill } from "react-icons/bs";
 import { GiSandwich } from "react-icons/gi";
 import { GiFrenchFries } from "react-icons/gi";
+import img1 from '../assets/logoo.jpg';
 
 
 
@@ -46,9 +47,12 @@ function ProductsPage() {
     };
     return (
         <>
-            <div>
+            <div style={{backgroundColor:"white", display:"flex",flexDirection:"column", alignItems:"center"}}>
+                <img src={img1} style={{width:"250px" ,height:"200px"}}/>
                 <input type="text" placeholder='Search' value={search} onChange={e => setSearch(e.target.value.toLowerCase().trim())} />
+                <div style={{flexDirection:"row", display:"flex"}}>
                 <button onClick={searchHandler}><ImSearch /></button>
+                </div>
             </div>
             <div className={Styles.container}>
                 <div className={Styles.sidebar}>
