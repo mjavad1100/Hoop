@@ -86,7 +86,7 @@ function ProductsPage() {
                         <SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
                                 <li><BsCupHotFill style={{fontSize:"4rem", padding: "10px"}} />
-                                electronics</li>
+                                پیتزا</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>

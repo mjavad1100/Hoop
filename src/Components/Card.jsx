@@ -8,14 +8,14 @@ import img1 from '../assets/latte.webp'
 
 
 function Card({ data }) {
-    const { id, title, image, price} = data;
+    const { id, title, image, price, recepi} = data;
     return (
         <div className={styles.card}>
             <img src={img1} alt={title}/>
             <div className={styles.mytitle}>   
             <h3>{shortestText(title)}</h3>
             <p style={{fontWeight:"600", fontSize:"1.3rem"}}>{price}$</p>
-            <p>{title}</p>
+            <p>{recepi}</p>
             <div className={styles.actions}>
                 <Link to={'/products/${id}'}>
                     <TbListDetails />
