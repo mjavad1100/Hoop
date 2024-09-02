@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { ImSearch } from 'react-icons/im';
+// import { ImSearch } from 'react-icons/im';
 import { useProducts } from '../Context/ProductContext';
 import { searchProducts, filterProducts } from '../Help/Helper';
 import Card from '../Components/Card';
@@ -10,6 +10,10 @@ import { BsCupHotFill } from "react-icons/bs";
 import { GiSandwich } from "react-icons/gi";
 import { GiFrenchFries } from "react-icons/gi";
 import img1 from '../assets/logoo.jpg';
+import { FaPizzaSlice } from "react-icons/fa";
+import { RiDrinks2Fill } from "react-icons/ri";
+
+
 
 
 
@@ -25,7 +29,7 @@ import { Navigation } from 'swiper/modules';
 function ProductsPage() {
     const products = useProducts();
     const [displayed, setDisplayed] = useState([]);
-    const [search, setSearch] = useState("");
+    // const [search, setSearch] = useState("");
     const [query, setQuery] = useState({});
 
     useEffect(() => {
@@ -36,9 +40,9 @@ function ProductsPage() {
         finalProducts = filterProducts(finalProducts, query.category);
         setDisplayed(finalProducts);
     }, [query]);
-    const searchHandler = () => {
-        setQuery((query) => ({ ...query, search }));
-    };
+    // const searchHandler = () => {
+    //     setQuery((query) => ({ ...query, search }));
+    // };
     const categoryHandler = (event) => {
         const { tagName } = event.target;
         const category = event.target.innerText.toLowerCase();
@@ -58,7 +62,7 @@ function ProductsPage() {
                 <div className={Styles.sidebar}>
                     <Swiper
                         navigation={true} modules={[Navigation]}
-                        spaceBetween={20}
+                        spaceBetween={10}
                         slidesPerView={3}
                         onSlideChange={() => console.log('slide change')}
                         onSwiper={(swiper) => console.log(swiper)
@@ -76,7 +80,7 @@ function ProductsPage() {
                             <div className={Styles.mynav}
                                 onClick={categoryHandler}>
 
-                                <li> <GiFrenchFries style={{ fontSize: "4rem", padding: "10px" }} />Jewelery</li>
+                                <li> <GiFrenchFries style={{ fontSize: "4rem", padding: "10px" }} />قهوه گرم</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -93,12 +97,14 @@ function ProductsPage() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
-                                <li>women's clothing</li>
+                                <li><FaPizzaSlice style={{fontSize:"4rem", padding: "10px"}} />
+                                women's clothing</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
-                                <li>women's clothing</li>
+                                <li><RiDrinks2Fill style={{fontSize:"4rem", padding: "10px"}} />
+                                women's clothing</li>
                             </div>
                         </SwiperSlide><SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
