@@ -15,11 +15,10 @@
     align-content: center;
   
     border-radius: 10px;
-    margin-bottom:15px ;
-    margin-top: 25px;
+    margin-bottom:4px ;
+    margin-top: 4px;
     /* width: 500px; */
     align-items: center;
-    padding-bottom: 25px;
     /* position: sticky;
     top: 4px; */
 }
@@ -32,22 +31,26 @@
 }
 .sidebar li{
     padding: 30px;
-    color:darkcyan;
+    color:rgb(30, 39, 39);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-weight: bold;
+    /* font-weight: ; */
     text-align: center;
     
 }
 .sidebar .mynav{
     width: 112px;
     height: 122px;
-    background-color: whitesmoke;
-    border: 1.5px inset rgb(5, 17, 17);
-margin-bottom: 2px;
-margin-top: 2px;
+    background: rgb(174,216,230);
+    background: -moz-linear-gradient(0deg, rgba(174,216,230,0.75) 0%, rgba(255,255,255,0.65) 88%);
+    background: -webkit-linear-gradient(0deg, rgba(174,216,230,0.75) 0%, rgba(255,255,255,0.65) 88%);
+    background: linear-gradient(0deg, rgba(174,216,230,0.75) 0%, rgba(255,255,255,0.65) 88%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aed8e6",endColorstr="#ffffff",GradientType=1);  
+      border: 1.5px solid rgb(9, 27, 27);
+/* margin-bottom: 2px; */
+/* margin-top: 2px; */
     display: flex;
     flex-direction: column;
     align-items: center;
