@@ -3,14 +3,14 @@
     /* padding:12px; */
     margin: 10px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: rgb(113,200,209);
-    background: -moz-linear-gradient(0deg, rgba(113,200,209,1) 0%, rgba(255,255,255,0.65) 45%);
-    background: -webkit-linear-gradient(0deg, rgba(113,200,209,1) 0%, rgba(255,255,255,0.65) 45%);
-    background: linear-gradient(0deg, rgba(113,200,209,1) 0%, rgba(255,255,255,0.65) 45%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#71c8d1",endColorstr="#ffffff",GradientType=1);  
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 38%, #71c8d1 93%);
+    background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 38%, #71c8d1 93%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 38%, #71c8d1 93%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#aed8e6",GradientType=1);   
      border: 3px ridge rgb(174, 216, 230);
     border-radius: 15px;
 
@@ -18,10 +18,10 @@
 
 }
 .card img{
-    width: 250px;
+    width: 125px;
     margin: auto;
     border-radius: 20px;
-    height: 200px;
+    height: 125px;
     justify-content: center;
     align-items: center;
     border: none;
@@ -78,10 +78,9 @@
  .mytitle{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: self-end;
     padding: 5px;
-    /* float: right; */
-    /* width: 140px ; */
+    float: right;
 
     
  }

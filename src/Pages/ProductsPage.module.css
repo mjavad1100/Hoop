@@ -43,11 +43,11 @@
 .sidebar .mynav{
     width: 112px;
     height: 122px;
-    background: rgb(113,200,209);
-    background: -moz-linear-gradient(0deg, rgba(113,200,209,1) 0%, rgba(255,255,255,0.65) 45%);
-    background: -webkit-linear-gradient(0deg, rgba(113,200,209,1) 0%, rgba(255,255,255,0.65) 45%);
-    background: linear-gradient(0deg, rgba(113,200,209,1) 0%, rgba(255,255,255,0.65) 45%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#71c8d1",endColorstr="#ffffff",GradientType=1);
+background: rgb(113,200,209);
+background: -moz-linear-gradient(0deg, rgba(113,200,209,1) 0%, rgba(255,255,255,0.65) 45%);
+background: -webkit-linear-gradient(0deg, rgba(113,200,209,1) 0%, rgba(255,255,255,0.65) 45%);
+background: linear-gradient(0deg, rgba(113,200,209,1) 0%, rgba(255,255,255,0.65) 45%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#71c8d1",endColorstr="#ffffff",GradientType=1);
       border: 1px ridge black ;
 margin-bottom: 2px;
 /* margin-top: 2px; */
