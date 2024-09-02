@@ -49,10 +49,10 @@ function ProductsPage() {
         <>
             <div style={{backgroundColor:"white", display:"flex",flexDirection:"column", alignItems:"center"}}>
                 <img src={img1} style={{width:"250px" ,height:"200px"}}/>
-                <div style={{flexDirection:"row", display:"flex"}}>
+                {/* <div style={{flexDirection:"row", display:"flex"}}>
                 <input style={{backgroundColor:"lightblue", borderRadius:"10px",padding:"4px", border:"1px solid darkcyan"}} type="text" placeholder='Search' value={search} onChange={e => setSearch(e.target.value.toLowerCase().trim())} />
                 <button onClick={searchHandler} style={{borderRadius:"20px", border:"2px solid darkcyan", color:"darkcyan",marginLeft:"2px"}}><ImSearch fontSize={"1.5rem"} /></button>
-                </div>
+                </div> */}
             </div>
             <div className={Styles.container}>
                 <div className={Styles.sidebar}>

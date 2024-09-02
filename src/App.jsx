@@ -6,12 +6,15 @@ import PageNotFound from "./Pages/404"
 import ProductsProvider from "./Context/ProductContext"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 import './App.css'
 import { Container } from "react-bootstrap"
+import Headertop from "./Pages/Headertop"
 function App() {
 
   return (
     <ProductsProvider>
+      <Headertop/>
           <Container>
     <Routes>
       <Route index element={<Navigate to="/Products" replace/>} />
