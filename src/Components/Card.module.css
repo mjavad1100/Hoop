@@ -6,9 +6,12 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-end;
-    background-color:white;
-    border: 1px solid lightblue;
-    border-radius: 20px;
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 38%, rgba(174,216,230,0.5) 93%);
+    background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 38%, rgba(174,216,230,0.5) 93%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 38%, rgba(174,216,230,0.5) 93%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#aed8e6",GradientType=1);    border: 1px inset rgb(3, 12, 15);
+    border-radius: 15px;
     padding: 12px;
 
 }
