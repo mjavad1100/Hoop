@@ -31,7 +31,7 @@
 }
 .sidebar li{
     padding: 30px;
-    color:rgb(30, 39, 39);
+    color:rgba(9, 32, 50, 0.848);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,7 +48,7 @@
     background: -webkit-linear-gradient(0deg, rgba(174,216,230,0.75) 0%, rgba(255,255,255,0.65) 88%);
     background: linear-gradient(0deg, rgba(174,216,230,0.75) 0%, rgba(255,255,255,0.65) 88%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aed8e6",endColorstr="#ffffff",GradientType=1);  
-      border: 1px solid rgb(9, 27, 27);
+      border: 1px solid rgba(174,216,230,0.75) ;
 /* margin-bottom: 2px; */
 /* margin-top: 2px; */
     display: flex;
@@ -58,4 +58,7 @@
     justify-content: center;
     border-radius: 15px;
 
+
+
 }
+

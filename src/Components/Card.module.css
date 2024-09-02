@@ -10,8 +10,10 @@
     background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 38%, rgba(174,216,230,0.5) 93%);
     background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 38%, rgba(174,216,230,0.5) 93%);
     background: linear-gradient(90deg, rgba(255,255,255,1) 38%, rgba(174,216,230,0.5) 93%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#aed8e6",GradientType=1);    border: 1px inset rgb(3, 12, 15);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#aed8e6",GradientType=1);   
+     border: 3px ridge rgba(174, 216, 230, 0.186);
     border-radius: 15px;
+
     padding: 12px;
 
 }
