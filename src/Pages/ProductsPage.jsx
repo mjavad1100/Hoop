@@ -63,7 +63,7 @@ function ProductsPage() {
                     <Swiper
                         navigation={true} modules={[Navigation]}
                         spaceBetween={10}
-                        slidesPerView={2.9}
+                        slidesPerView={3}
                         onSlideChange={() => console.log('slide change')}
                         onSwiper={(swiper) => console.log(swiper)
 
@@ -80,12 +80,12 @@ function ProductsPage() {
                             <div className={Styles.mynav}
                                 onClick={categoryHandler}>
 
-                                <li> <GiFrenchFries style={{ fontSize: "4rem", padding: "10px" }} />قهوه گرم</li>
+                                <li> <BsCupHotFill style={{ fontSize: "4rem", padding: "10px" }} />قهوه گرم</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
-                                <li><BsCupHotFill style={{fontSize:"4rem", padding: "10px"}} />
+                                <li><FaPizzaSlice style={{fontSize:"4rem", padding: "10px"}} />
                                 پیتزا</li>
                             </div>
                         </SwiperSlide>
@@ -115,6 +115,37 @@ function ProductsPage() {
                                 <li>women's clothing</li>
                             </div>
                         </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={Styles.mynav} onClick={categoryHandler}>
+                                <li>women's clothing</li>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={Styles.mynav} onClick={categoryHandler}>
+                                <li>women's clothing</li>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={Styles.mynav} onClick={categoryHandler}>
+                                <li>women's clothing</li>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={Styles.mynav} onClick={categoryHandler}>
+                                <li>women's clothing</li>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={Styles.mynav} onClick={categoryHandler}>
+                                <li>women's clothing</li>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={Styles.mynav} onClick={categoryHandler}>
+                                <li>women's clothing</li>
+                            </div>
+                        </SwiperSlide>
+                        
                     </Swiper>
                     {/* <ul className={Styles.mylist} onClick={categoryHandler}>
                         <li>All</li>

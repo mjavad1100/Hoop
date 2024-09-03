@@ -44,13 +44,13 @@
     width: 112px;
     height: 122px;
 background: rgb(113,200,209);
-background: -moz-linear-gradient(0deg, rgba(113,200,209,1) 0%, rgba(255,255,255,0.65) 45%);
-background: -webkit-linear-gradient(0deg, rgba(113,200,209,1) 0%, rgba(255,255,255,0.65) 45%);
-background: linear-gradient(0deg, rgba(113,200,209,1) 0%, rgba(255,255,255,0.65) 45%);
+background: -moz-linear-gradient(0deg, lightgrey 0%, rgba(255,255,255,0.45) 55%);
+background: -webkit-linear-gradient(0deg, lightgrey 0%, rgba(255,255,255,0.45) 55%);
+background: linear-gradient(0deg, lightgrey 0%, rgba(255,255,255,0.65) 45%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#71c8d1",endColorstr="#ffffff",GradientType=1);
-      border: 1px ridge black ;
-margin-bottom: 2px;
-/* margin-top: 2px; */
+      border: 1px ridge #71c8d1 ;
+margin-bottom: 4px;
+margin-top: 4px;
     display: flex;
     flex-direction: column;
     align-items: center;

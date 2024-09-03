@@ -15,7 +15,7 @@ const myproducts = [
         title:"پیتزا سبزیجات",
         id:2,
         category:"پیتزا",
-        price:"135$",
+        price:"135",
         recepi: "lorem ipsum is free noot for you",
     },
     {
