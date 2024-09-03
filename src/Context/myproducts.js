@@ -7,7 +7,7 @@ const myproducts = [
         title:" لاته",
         id:1,
         category:"قهوه گرم",
-        price:"133",
+        price:"133.000",
         recepi: "شات اسپرسو + شیر گرم",
     },
     {
@@ -15,7 +15,7 @@ const myproducts = [
         title:"پیتزا سبزیجات",
         id:2,
         category:"پیتزا",
-        price:"135",
+        price:"135.000",
         recepi: "کلم بروکلی ،هویج،کدو،قارچ ،نخود فرنگی",
     },
     {
@@ -23,7 +23,7 @@ const myproducts = [
         title:" پیتزا پپرونی",
         id:3,
         category:"پیتزا",
-        price:"135$",
+        price:"135.000",
         recepi: "lorem ipsum is free noot for you",
     },
     {
@@ -31,7 +31,7 @@ const myproducts = [
         title:" پیتزا پپرونی",
         id:4,
         category:"پیتزا",
-        price:"135$",
+        price:"135.000",
         recepi: "lorem ipsum is free noot for you",
     },
     {
@@ -47,7 +47,7 @@ const myproducts = [
         title:" کارامل ماکیاتو",
         id:6,
         category:"قهوه گرم",
-        price:"133 تومان",
+        price:"133.000 تومان",
         recepi: "2شات اسپرسو + شیر گرم",
     },
     {
@@ -55,7 +55,7 @@ const myproducts = [
         title:" چای ماسالا",
         id:7,
         category:"قهوه گرم",
-        price:"133 تومان",
+        price:"133.000 تومان",
         recepi: "2شات اسپرسو + شیر گرم",
     },
     {
@@ -63,7 +63,7 @@ const myproducts = [
         title:" آفوگاتو",
         id:8,
         category:"قهوه گرم",
-        price:"133 تومان",
+        price:"133.000 تومان",
         recepi: "2شات اسپرسو + شیر گرم",
     },
     {
@@ -71,7 +71,7 @@ const myproducts = [
         title:" لاته",
         id:9,
         category:"قهوه گرم",
-        price:"133 تومان",
+        price:"133.000 تومان",
         recepi: "2شات اسپرسو + شیر گرم",
     },
 ]
