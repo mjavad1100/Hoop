@@ -39,7 +39,7 @@ const myproducts = [
         title:" موکا",
         id:5,
         category:"قهوه گرم",
-        price:"133 تومان",
+        price:"133.000",
         recepi: "2شات اسپرسو + شیر گرم",
     },
     {
@@ -47,7 +47,7 @@ const myproducts = [
         title:" کارامل ماکیاتو",
         id:6,
         category:"قهوه گرم",
-        price:"133.000 تومان",
+        price:"133.000",
         recepi: "2شات اسپرسو + شیر گرم",
     },
     {
@@ -55,7 +55,7 @@ const myproducts = [
         title:" چای ماسالا",
         id:7,
         category:"قهوه گرم",
-        price:"133.000 تومان",
+        price:"133.000",
         recepi: "2شات اسپرسو + شیر گرم",
     },
     {
@@ -63,7 +63,7 @@ const myproducts = [
         title:" آفوگاتو",
         id:8,
         category:"قهوه گرم",
-        price:"133.000 تومان",
+        price:"133.000",
         recepi: "2شات اسپرسو + شیر گرم",
     },
     {
@@ -71,7 +71,7 @@ const myproducts = [
         title:" لاته",
         id:9,
         category:"قهوه گرم",
-        price:"133.000 تومان",
+        price:"133.000",
         recepi: "2شات اسپرسو + شیر گرم",
     },
 ]
