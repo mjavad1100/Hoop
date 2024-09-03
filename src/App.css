@@ -8,12 +8,12 @@
   
  body{
     background: rgb(255, 255, 255);
-    font-family: 'Shabnam';
+    font-family: 'Shabnam-FD';
 
   }
   @font-face {
-    font-family: "Shabnam";
-    src: url('./font/shabnam-font-v2.4.0/ShabnaM.ttf');
+    font-family: "Shabnam-FD";
+    src: url('./font/shabnam-font-v2.4.0/Farsi-Digits/Shabnam-FD.ttf');
     
    
   }

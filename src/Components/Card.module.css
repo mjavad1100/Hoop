@@ -13,7 +13,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#aed8e6",GradientType=1);   
      border: 1px ridge #71c8d1;
     border-radius: 15px;
-
+padding-right: 0px;
     padding: 12px;
 
 }
@@ -78,8 +78,8 @@
  .mytitle{
     display: flex;
     flex-direction: column;
-    align-items: self-end;
-    padding: 5px;
+    align-items: flex-end;
+    /* padding: 5px; */
     float: right;
 
     

@@ -13,8 +13,8 @@ function Card({ data }) {
         <div className={styles.card}>
             <img src={img1} alt={title}/>
             <div className={styles.mytitle}>   
-            <h3>{shortestText(title)}</h3>
-            <p style={{fontWeight:"600", fontSize:"1.3rem"}}>{price}</p>
+            <h3>{title}</h3>
+            <p style={{fontSize:"1.1rem"}}>{price}</p>
             <p>{recepi}</p>
             <div className={styles.actions}>
                 <Link to={'/products/${id}'}>
