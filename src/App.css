@@ -1,5 +1,14 @@
-* body{
+
+ body{
     background: rgb(255, 255, 255);
+    font-family: 'Shabnam';
+
+  }
+  @font-face {
+    font-family: "Shabnam";
+    src: url('./font/shabnam-font-v2.4.0/Shabnam.ttf');
+    
+   
   }
 :root {
     --swiper-navigation-size: 28px;
@@ -7,3 +16,4 @@
     --swiper-navigation-sides-offset: 5px;
     --swiper-navigation-color: rgb(51, 118, 118);
   }
+  

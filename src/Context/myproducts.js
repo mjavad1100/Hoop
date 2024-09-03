@@ -8,7 +8,7 @@ const myproducts = [
         id:1,
         category:"قهوه گرم",
         price:"133 تومان",
-        recepi: "2شات اسپرسو + شیر گرم",
+        recepi: "شات اسپرسو + شیر گرم",
     },
     {
         image: img1,
@@ -16,7 +16,7 @@ const myproducts = [
         id:2,
         category:"پیتزا",
         price:"135",
-        recepi: "lorem ipsum is free noot for you",
+        recepi: "کلم بروکلی ،هویج،کدو،قارچ ،نخود فرنگی",
     },
     {
         image: img1,

@@ -12,6 +12,8 @@ import { GiFrenchFries } from "react-icons/gi";
 import img1 from '../assets/logoo.jpg';
 import { FaPizzaSlice } from "react-icons/fa";
 import { RiDrinks2Fill } from "react-icons/ri";
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 
@@ -61,11 +63,10 @@ function ProductsPage() {
             </div>
             <div className={Styles.container}>
                 <div className={Styles.sidebar}>
-                    <Container>
                     <Swiper
                         navigation={true} modules={[Navigation]}
                         spaceBetween={10}
-                        slidesPerView={3}
+                        slidesPerView={3.3}
                         onSlideChange={() => console.log('slide change')}
                         onSwiper={(swiper) => console.log(swiper)
 
@@ -75,37 +76,37 @@ function ProductsPage() {
                 
                         <SwiperSlide >
                             <div className={Styles.mynav}>
-                            <li onClick={categoryHandler}>All</li>
+                            <li onClick={categoryHandler}>همه ی موارد</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={Styles.mynav}
                                 onClick={categoryHandler}>
 
-                                <li> <BsCupHotFill style={{ fontSize: "4rem", padding: "10px" }} />قهوه گرم</li>
+                                <li> <BsCupHotFill style={{ fontSize: "2.5rem", padding: "10px" }} />قهوه گرم</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
-                                <li><FaPizzaSlice style={{fontSize:"4rem", padding: "10px"}} />
+                                <li><FaPizzaSlice style={{fontSize:"2.5rem", padding: "10px"}} />
                                 پیتزا</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
-                                <li><GiSandwich style={{fontSize:"4rem", padding: "10px"}} />
+                                <li><GiSandwich style={{fontSize:"2.5rem", padding: "10px"}} />
                                 Men's clothing</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
-                                <li><FaPizzaSlice style={{fontSize:"4rem", padding: "10px"}} />
+                                <li><FaPizzaSlice style={{fontSize:"2.5rem", padding: "10px"}} />
                                 women's clothing</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
-                                <li><RiDrinks2Fill style={{fontSize:"4rem", padding: "10px"}} />
+                                <li><RiDrinks2Fill style={{fontSize:"2.5rem", padding: "10px"}} />
                                 women's clothing</li>
                             </div>
                         </SwiperSlide><SwiperSlide>
@@ -149,7 +150,6 @@ function ProductsPage() {
                         </SwiperSlide>
                         
                     </Swiper>
-                    </Container>
                     {/* <ul className={Styles.mylist} onClick={categoryHandler}>
                         <li>All</li>
                         <li>electronics</li>
