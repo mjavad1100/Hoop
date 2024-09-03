@@ -24,6 +24,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 import { Navigation } from 'swiper/modules';
+import { Container } from 'react-bootstrap';
 
 // import Slider from "../Components/Slider"
 function ProductsPage() {
@@ -60,10 +61,11 @@ function ProductsPage() {
             </div>
             <div className={Styles.container}>
                 <div className={Styles.sidebar}>
+                    <Container>
                     <Swiper
                         navigation={true} modules={[Navigation]}
                         spaceBetween={10}
-                        slidesPerView={3.7}
+                        slidesPerView={3.4}
                         onSlideChange={() => console.log('slide change')}
                         onSwiper={(swiper) => console.log(swiper)
 
@@ -147,6 +149,7 @@ function ProductsPage() {
                         </SwiperSlide>
                         
                     </Swiper>
+                    </Container>
                     {/* <ul className={Styles.mylist} onClick={categoryHandler}>
                         <li>All</li>
                         <li>electronics</li>
