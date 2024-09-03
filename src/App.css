@@ -1,4 +1,11 @@
 
+:root {
+    --swiper-navigation-size: 34px !important;
+    --swiper-navigation-top-offset: 45%;
+    --swiper-navigation-sides-offset: 1px;
+    --swiper-navigation-color: rgb(51, 118, 118);
+  }
+  
  body{
     background: rgb(255, 255, 255);
     font-family: 'Shabnam';
@@ -6,14 +13,7 @@
   }
   @font-face {
     font-family: "Shabnam";
-    src: url('./font/shabnam-font-v2.4.0/Shabnam.ttf');
+    src: url('./font/shabnam-font-v2.4.0/ShabnaM.ttf');
     
    
   }
-:root {
-    --swiper-navigation-size: 28px;
-    --swiper-navigation-top-offset: 45%;
-    --swiper-navigation-sides-offset: 5px;
-    --swiper-navigation-color: rgb(51, 118, 118);
-  }
-  
