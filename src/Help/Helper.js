@@ -13,5 +13,16 @@ const filterProducts = (products, category) => {
     const filteredProducts = products.filter((p) => p.category === category);
     return filteredProducts;
 };
+const createQueryObject = (currentQuery, newQuery) =>{
+    if(newQuery.category ==="همه ی موارد"){
+        const{category, ... rest} = currentQuery
+        return rest;
+    }
+    if(newQuery.search ===""){
+        const{search, ... rest} = currentQuery
+        return rest;
+    }
+    return{...currentQuery,... newQuery,};
+};
 
-export { shortestText, searchProducts, filterProducts };
+export { shortestText, searchProducts, filterProducts, createQueryObject };
