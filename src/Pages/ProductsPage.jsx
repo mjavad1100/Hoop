@@ -12,25 +12,22 @@ import { GiFrenchFries } from "react-icons/gi";
 import img1 from '../assets/hope-03.svg';
 import { FaPizzaSlice } from "react-icons/fa";
 import { RiDrinks2Fill } from "react-icons/ri";
-
-
-
-
-
-
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
-
 import { Navigation } from 'swiper/modules';
+import { ImSearch } from 'react-icons/im';
 
-// import Slider from "../Components/Slider"
+
+
+
+
 function ProductsPage() {
     const products = useProducts();
     const [displayed, setDisplayed] = useState([]);
-    // const [search, setSearch] = useState("");
+    const [search, setSearch] = useState("");
     const [query, setQuery] = useState({});
 
     useEffect(() => {
@@ -41,23 +38,20 @@ function ProductsPage() {
         finalProducts = filterProducts(finalProducts, query.category);
         setDisplayed(finalProducts);
     }, [query]);
-    // const searchHandler = () => {
-    //     setQuery((query) => ({ ...query, search }));
-    // };
+    const searchHandler = () => {
+        setQuery((query) => ({ ...query, search }));
+    };
     const categoryHandler = (event) => {
         const { tagName } = event.target;
-        const category = event.target.innerText.toLowerCase();
+        const category = event.target.innerText;
         if (tagName !== "LI") return;
         setQuery((query) => ({ ...query, category }));
     };
     return (
         <>
-            <div style={{backgroundColor:"white", display:"flex",flexDirection:"column", alignItems:"center"}}>
-                <img src={img1} className={Styles.image} style={{width:"300px" ,height:"200px"}}/>
-                {/* <div style={{flexDirection:"row", display:"flex",padding:"20px"}}>
-                <input style={{backgroundColor:"lightblue", borderRadius:"10px",padding:"4px", border:"1px solid darkcyan"}} type="text" placeholder='Search' value={search} onChange={e => setSearch(e.target.value.toLowerCase().trim())} />
-                <button onClick={searchHandler} style={{borderRadius:"20px", border:"2px solid darkcyan", color:"darkcyan",marginLeft:"2px"}}><ImSearch fontSize={"1.5rem"} /></button>
-                </div> */}
+            <div style={{ backgroundColor: "white", display: "flex", flexDirection: "column", alignItems: "center" }}>
+                <img src={img1} className={Styles.image} style={{ width: "300px", height: "200px" }} />
+               
             </div>
             <div className={Styles.container}>
                 <div className={Styles.sidebar}>
@@ -71,10 +65,10 @@ function ProductsPage() {
                         }
 
                     >
-                
+
                         <SwiperSlide >
                             <div className={Styles.mynav}>
-                            <li onClick={categoryHandler}>همه ی موارد</li>
+                                <li onClick={categoryHandler}>همه ی موارد</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -86,26 +80,26 @@ function ProductsPage() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
-                                <li><FaPizzaSlice style={{fontSize:"2.5rem", padding: "10px"}} />
-                                پیتزا</li>
+                                <li><FaPizzaSlice style={{ fontSize: "2.5rem", padding: "10px" }} />
+                                    پیتزا</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
-                                <li><GiSandwich style={{fontSize:"2.5rem", padding: "10px"}} />
-                                پاستا</li>
+                                <li><GiSandwich style={{ fontSize: "2.5rem", padding: "10px" }} />
+                                    پاستا</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
-                                <li><FaPizzaSlice style={{fontSize:"2.5rem", padding: "10px"}} />
-                                women's clothing</li>
+                                <li><FaPizzaSlice style={{ fontSize: "2.5rem", padding: "10px" }} />
+                                    women's clothing</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
-                                <li><RiDrinks2Fill style={{fontSize:"2.5rem", padding: "10px"}} />
-                                women's clothing</li>
+                                <li><RiDrinks2Fill style={{ fontSize: "2.5rem", padding: "10px" }} />
+                                    women's clothing</li>
                             </div>
                         </SwiperSlide><SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
@@ -146,19 +140,19 @@ function ProductsPage() {
                                 <li>women's clothing</li>
                             </div>
                         </SwiperSlide>
-                        
+
                     </Swiper>
-                    {/* <ul className={Styles.mylist} onClick={categoryHandler}>
-                        <li>All</li>
-                        <li>electronics</li>
-                        <li>Jewelery</li>
-                        <li>Men's clothing</li>
-                        <li>women's clothing</li>
-                    </ul> */}
+                </div>
+                <div> 
+                <div className={Styles.mysearch}>
+                <input type="text" placeholder='Search' value={search} onChange={e => setSearch(e.target.value.toLowerCase().trim())} />
+                <button onClick={searchHandler}><ImSearch fontSize={"1.5rem"} style={{padding:"3px"}} /></button>
                 </div>
                 <div className={Styles.products}>
+               
                     {!displayed.length && <Loader />}
                     {displayed.map((p) => <Card key={p.id} data={p} />)}</div>
+                </div>
 
             </div>
         </>
