@@ -12,7 +12,6 @@ import { GiFrenchFries } from "react-icons/gi";
 import img1 from '../assets/logoo.jpg';
 import { FaPizzaSlice } from "react-icons/fa";
 import { RiDrinks2Fill } from "react-icons/ri";
-// import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -26,7 +25,6 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 import { Navigation } from 'swiper/modules';
-import { Container } from 'react-bootstrap';
 
 // import Slider from "../Components/Slider"
 function ProductsPage() {
@@ -95,7 +93,7 @@ function ProductsPage() {
                         <SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
                                 <li><GiSandwich style={{fontSize:"2.5rem", padding: "10px"}} />
-                                پاستا</li>
+                                پاستا‍</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
