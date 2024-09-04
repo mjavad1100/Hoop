@@ -6,20 +6,26 @@ import img5 from '../assets/pasta4.webp'
 import img6 from '../assets/pasta5.webp'
 import img7 from '../assets/pasta6.webp'
 import img8 from '../assets/pasta7.webp'
+import img9 from '../assets/chaylatte.webp'
+import img10 from '../assets/pitza1.webp'
+import img11 from '../assets/pitza2.webp'
+import img12 from '../assets/masala.webp'
+import img13 from '../assets/americanoo.webp'
+
 
 
 
 const myproducts = [
     {
-        image: img1,
-        title:" لاته",
+        image: img13,
+        title:" آمریکانو",
         id:1,
         category:"قهوه گرم",
         price:"133 تومان",
         recepi: "شات اسپرسو + شیر گرم",
     },
     {
-        image: img1,
+        image: img11,
         title:"پیتزا سبزیجات",
         id:2,
         category:"پیتزا",
@@ -27,7 +33,7 @@ const myproducts = [
         recepi: "کلم بروکلی ،هویج،کدو،قارچ ،نخود فرنگی",
     },
     {
-        image: img1,
+        image: img10,
         title:" پیتزا پپرونی",
         id:3,
         category:"پیتزا",
@@ -35,7 +41,7 @@ const myproducts = [
         recepi: "lorem ipsum is free noot for you",
     },
     {
-        image: img1,
+        image: img11,
         title:" پیتزا پپرونی",
         id:4,
         category:"پیتزا",
@@ -43,7 +49,7 @@ const myproducts = [
         recepi: "lorem ipsum is free noot for you",
     },
     {
-        image: img1,
+        image: img12,
         title:" ماسالا",
         id:5,
         category:"قهوه گرم",
@@ -51,7 +57,7 @@ const myproducts = [
         recepi: "2شات اسپرسو + شیر گرم",
     },
     {
-        image: img1,
+        image: img13,
         title:" چای",
         id:6,
         category:"قهوه گرم",
