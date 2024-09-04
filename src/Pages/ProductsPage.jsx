@@ -9,7 +9,7 @@ import Styles from './ProductsPage.module.css';
 import { BsCupHotFill } from "react-icons/bs";
 import { GiSandwich } from "react-icons/gi";
 import { GiFrenchFries } from "react-icons/gi";
-import img1 from '../assets/logoo.jpg';
+import img1 from '../assets/hope-03.svg';
 import { FaPizzaSlice } from "react-icons/fa";
 import { RiDrinks2Fill } from "react-icons/ri";
 
@@ -64,7 +64,7 @@ function ProductsPage() {
                     <Swiper
                         navigation={true} modules={[Navigation]}
                         spaceBetween={10}
-                        slidesPerView={3}
+                        slidesPerView={3.8}
                         onSlideChange={() => console.log('slide change')}
                         onSwiper={(swiper) => console.log(swiper)
 
