@@ -95,7 +95,7 @@ function ProductsPage() {
                         <SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
                                 <li><GiSandwich style={{fontSize:"2.5rem", padding: "10px"}} />
-                                Men's clothing</li>
+                                پاستا</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>

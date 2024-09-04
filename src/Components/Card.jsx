@@ -4,14 +4,13 @@ import { GiHeartPlus } from "react-icons/gi";
 import { Link } from "react-router-dom";
 // import { shortestText } from "../Help/Helper";
 import styles from "./Card.module.css";
-import img1 from '../assets/latte.webp'
 
 
 function Card({ data }) {
     const { id, title, image, price, recepi} = data;
     return (
         <div className={styles.card}>
-            <img src={img1} alt={title}/>
+            <img src={image} alt={title}/>
             <div className={styles.mytitle}>   
             <h3>{title}</h3>
             <div style={{flexDirection:"row", display:"flex"}}>
