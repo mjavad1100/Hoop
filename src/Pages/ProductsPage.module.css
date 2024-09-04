@@ -64,8 +64,8 @@ margin-top: 0px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-left: 20px;
-    margin-right: 20px;
+ margin: auto;
+    width: 333px;
 
 }
 .mysearch input{
