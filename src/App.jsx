@@ -12,7 +12,6 @@ import Headertop from "./Pages/Headertop"
 function App() {
 
   return (
-    <>
     <ProductsProvider>
       <Headertop />
       <Routes>
@@ -23,7 +22,6 @@ function App() {
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
     </ProductsProvider>
-    </>
   )
 }
 

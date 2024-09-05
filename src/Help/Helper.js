@@ -18,11 +18,11 @@ const createQueryObject = (currentQuery, newQuery) => {
         const { category, ...rest } = currentQuery;
         return rest;
     }
-    if (newQuery.search === " ") {
+    if (newQuery.search === "") {
         const { search, ...rest } = currentQuery;
         return rest;
     };
-    return { ...currentQuery, ...newQuery, };
+    return { ...currentQuery, ...newQuery };
 };
 const getInitialQuery = (searchParams) => {
     const query = {};

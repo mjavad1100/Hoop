@@ -10,8 +10,6 @@ function ProductsProvider({ children }) {
         const fetchProducts = async () => {
             try {
                 setProducts(myproducts);
-               
-
             } catch (error) { console.log(error.message); }
         }
         fetchProducts();
