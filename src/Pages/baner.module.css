@@ -5,7 +5,7 @@
     position: relative;
     top: 25px;
     background: #FFF;
-    border: 0.25rem solid #363636;
+    border: 2px solid #363636;
     box-sizing: border-box;
 
     outline: 0;
@@ -30,7 +30,7 @@
       box-sizing: border-box;
       background-color: #2f6a68;
       border-radius: 40%;
-      animation: spin 3s ease-out infinite;
+      animation: spin 5s ease-out infinite;
     }
   }
   
