@@ -1,7 +1,46 @@
 .baner{
-    box-shadow: 0px 0px 59px -10px rgba(187,218,217,1);
--webkit-box-shadow: 0px 0px 59px -10px rgba(187,218,217,1);
--moz-box-shadow: 0px 0px 59px -10px rgba(187,218,217,1);
-border-radius: 5px;
-background-color: #2e5b56;
+    position: relative;
 }
+.banner {
+    position: relative;
+    top: 25px;
+    background: #FFF;
+    border: 0.25rem solid #363636;
+    box-sizing: border-box;
+
+    outline: 0;
+    overflow: hidden;
+  
+    &::before {
+      content: "";
+      font-family: Arial;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -50%;
+      left: -50%;
+      height: 200%;
+      width: 200%;
+      box-sizing: border-box;
+      background-color: #2f6a68;
+      border-radius: 40%;
+      animation: spin 3s ease-out infinite;
+    }
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: translateY(0) rotate(0deg);
+    }
+    100% {
+      transform: translateY(-100%) rotate(360deg);
+      }
+    }
+  
+  

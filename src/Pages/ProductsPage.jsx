@@ -10,6 +10,8 @@ import { BsCupHotFill } from "react-icons/bs";
 import { GiSandwich } from "react-icons/gi";
 import { GiFrenchFries } from "react-icons/gi";
 import img1 from '../assets/hope-03.svg';
+import img2 from '../assets/hope-02.svg';
+
 import { FaPizzaSlice } from "react-icons/fa";
 import { RiDrinks2Fill } from "react-icons/ri";
 // Import Swiper React components
@@ -53,8 +55,11 @@ function ProductsPage() {
     };
     return (
         <>
-            <div style={{ backgroundColor: "white", display: "flex", flexDirection: "column", alignItems: "center" }}>
-                <img src={img1} className={Styles.image} style={{ width: "300px", height: "200px" }} />
+            <div style={{ backgroundColor: "white", display: "flex", flexDirection: "row"}}>
+                <img src={img1} className={Styles.image} style={{ width: "180px", height: "200px",marginLeft:"auto" }} />
+                <div style={{width:"2px", height:"100px", marginTop:"auto", background:"black",marginBottom:"auto"}}></div>
+                <img src={img2} className={Styles.image} style={{ width: "180px", height: "200px", marginRight:"auto" }} />
+
                
             </div>
             <div className={Styles.container}>
