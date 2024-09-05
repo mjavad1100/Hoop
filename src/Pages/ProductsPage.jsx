@@ -84,30 +84,30 @@ function ProductsPage() {
                             <div className={Styles.mynav}
                                 onClick={categoryHandler}>
 
-                                <li> <BsCupHotFill style={{ fontSize: "2.3rem", padding: "10px",color:"#2f6a68", }} />قهوه گرم</li>
+                                <li> <BsCupHotFill style={{ fontSize: "2.3rem", padding: "10px",color:"rgb(46, 46, 46)", }} />قهوه گرم</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
-                                <li><FaPizzaSlice style={{ fontSize: "2.3rem", padding: "10px", color:"#2f6a68", }} />
+                                <li><FaPizzaSlice style={{ fontSize: "2.3rem", padding: "10px", color:"rgb(46, 46, 46)", }} />
                                     پیتزا</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
-                                <li><GiSandwich style={{ fontSize: "2.3rem", padding: "10px", color:"#2f6a68", }} />
+                                <li><GiSandwich style={{ fontSize: "2.3rem", padding: "10px", color:"rgb(46, 46, 46)", }} />
                                     پاستا</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
-                                <li><FaPizzaSlice style={{ fontSize: "2.3rem", padding: "10px", color:"#2f6a68", }} />
+                                <li><FaPizzaSlice style={{ fontSize: "2.3rem", padding: "10px", color:"rgb(46, 46, 46)", }} />
                                     women's clothing</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
-                                <li><RiDrinks2Fill style={{ fontSize: "2.3rem", padding: "10px", color:"#2f6a68", }} />
+                                <li><RiDrinks2Fill style={{ fontSize: "2.3rem", padding: "10px", color:"rgb(46, 46, 46)", }} />
                                     women's clothing</li>
                             </div>
                         </SwiperSlide><SwiperSlide>
