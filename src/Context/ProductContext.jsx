@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from 'react';
-import api from '../Services/Config';
+// import api from '../Services/Config';
 import { myproducts } from './myproducts';
 
 const ProductContext = createContext();
@@ -10,7 +10,7 @@ function ProductsProvider({ children }) {
         const fetchProducts = async () => {
             try {
                 setProducts(myproducts);
-                console.log(myproducts)
+               
 
             } catch (error) { console.log(error.message); }
         }
