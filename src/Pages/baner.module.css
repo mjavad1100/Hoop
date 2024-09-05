@@ -1,11 +1,12 @@
 .baner{
     position: relative;
+
 }
 .banner {
     position: relative;
     top: 25px;
     background: #FFF;
-    border: 1.6px solid black;
+    border: 1.5px solid rgb(46, 46, 46);
     box-sizing: border-box;
 
     outline: 0;
