@@ -57,7 +57,7 @@ function ProductsPage() {
         <>
             <div style={{ backgroundColor: "white", display: "flex", flexDirection: "row", marginTop:"15px"}}>
                 <img src={img1} className={Styles.image} style={{ width: "175px", height: "200px",marginLeft:"auto" }} />
-                <div style={{width:"2px", height:"100px", marginTop:"auto", background:"black",marginBottom:"auto"}}></div>
+                <div style={{width:"1.6px", height:"100px", marginTop:"auto", background:"black",marginBottom:"auto"}}></div>
                 <img src={img2} className={Styles.image} style={{ width: "175px", height: "200px", marginRight:"auto" }} />
 
                
@@ -84,30 +84,30 @@ function ProductsPage() {
                             <div className={Styles.mynav}
                                 onClick={categoryHandler}>
 
-                                <li> <BsCupHotFill style={{ fontSize: "2.5rem", padding: "10px" }} />قهوه گرم</li>
+                                <li> <BsCupHotFill style={{ fontSize: "2.3rem", padding: "10px",color:"#2f6a68", }} />قهوه گرم</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
-                                <li><FaPizzaSlice style={{ fontSize: "2.5rem", padding: "10px" }} />
+                                <li><FaPizzaSlice style={{ fontSize: "2.3rem", padding: "10px", color:"#2f6a68", }} />
                                     پیتزا</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
-                                <li><GiSandwich style={{ fontSize: "2.5rem", padding: "10px" }} />
+                                <li><GiSandwich style={{ fontSize: "2.3rem", padding: "10px", color:"#2f6a68", }} />
                                     پاستا</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
-                                <li><FaPizzaSlice style={{ fontSize: "2.5rem", padding: "10px" }} />
+                                <li><FaPizzaSlice style={{ fontSize: "2.3rem", padding: "10px", color:"#2f6a68", }} />
                                     women's clothing</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={Styles.mynav} onClick={categoryHandler}>
-                                <li><RiDrinks2Fill style={{ fontSize: "2.5rem", padding: "10px" }} />
+                                <li><RiDrinks2Fill style={{ fontSize: "2.3rem", padding: "10px", color:"#2f6a68", }} />
                                     women's clothing</li>
                             </div>
                         </SwiperSlide><SwiperSlide>

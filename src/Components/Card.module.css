@@ -7,10 +7,10 @@
     align-items: flex-start;
     justify-content: flex-end;
     background: rgb(255,255,255);
-    background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 30%, rgba(47,106,104,0.8) 100%);
+    /* background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 30%, rgba(47,106,104,0.8) 100%);
     background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 30%, rgba(47,106,104,0.8) 100%);
     background: linear-gradient(90deg, rgba(255,255,255,1) 30%, rgba(47,106,104,0.8) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#2f6a68",GradientType=1); 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#2f6a68",GradientType=1);  */
      border: 1px ridge #2f6a68;
     border-radius: 15px;
 padding-right: 0px;
