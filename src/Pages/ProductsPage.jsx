@@ -153,10 +153,10 @@ function ProductsPage() {
                     </Swiper>
                 </div>
                 <div> 
-                <div className={Styles.mysearch}>
+                {/* <div className={Styles.mysearch}>
                 <input type="text" placeholder='Search' value={search} onChange={e => setSearch(e.target.value.toLowerCase().trim())} />
                 <button onClick={searchHandler}><ImSearch fontSize={"1.5rem"} style={{padding:"3px"}} /></button>
-                </div>
+                </div> */}
                 <div className={Styles.products}>
                
                     {!displayed.length && <Loader />}
