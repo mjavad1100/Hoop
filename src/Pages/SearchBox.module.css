@@ -1,0 +1,22 @@
+.mysearch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ margin: auto;
+    width: 333px;
+
+}
+.mysearch input{
+background-color: #a3bdbc;
+border-radius: 10px;
+width: 80%;
+border: 10px solid #a3bdbc;
+height: 18px;
+}
+.mysearch button{
+    border-radius: 10px;
+    border: 1px solid #2f6a68;
+    color: #2f6a68;
+    margin-left: 2px;
+} 

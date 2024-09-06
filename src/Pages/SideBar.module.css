@@ -1,15 +1,3 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-}
-.products{
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
 .sidebar{
     display: flex;
     align-content: center;
@@ -60,4 +48,9 @@ margin-top: 0px;
     /* margin: auto; */
     justify-content: center;
     border-radius: 20px;
+}
+.myicon{
+    font-size: 2.3rem;
+    padding: 10px;
+    color: #2f6a68;
 }
