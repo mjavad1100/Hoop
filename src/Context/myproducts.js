@@ -19,7 +19,7 @@ const myproducts = [
         image: img13,
         title:" آمریکانو",
         id:1,
-        category:"pasta",
+        category:"قهوه گرم",
         price:"133 تومان",
         recepi: "شات اسپرسو + شیر گرم",
     },
