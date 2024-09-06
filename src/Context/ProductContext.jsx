@@ -8,12 +8,20 @@ function ProductsProvider({ children }) {
     const [products, setProducts] = useState([]);
     useEffect(() => {
         const fetchProducts = async () => {
-            setProducts(myproducts);
+            try{
+                setProducts(myproducts);
+                
+            }
+            catch(error){
+                console.log(error.message);
+            }
+            
         }
         fetchProducts();
+
     }, []);
     return (
-        <ProductContext.Provider value={products}>
+        <ProductContext.Provider value={products} >
             {children}
         </ProductContext.Provider>
     );
