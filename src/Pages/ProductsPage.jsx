@@ -34,7 +34,7 @@ function ProductsPage() {
     useEffect(() => {
         setDisplayed(products);
         setQuery(getInitialQuery(searchParams)); 
-
+        console.log(query);
     }, [products]);
     useEffect(() => {
         setSearchParams(query);
@@ -43,10 +43,12 @@ function ProductsPage() {
         let finalProducts = searchProducts(products, query.search);
         finalProducts = filterProducts(finalProducts, query.category);
         setDisplayed(finalProducts);
+
     }, [query]);
 
     const searchHandler = () => {
         setQuery((query) => createQueryObject(query, { search }));
+        
     };
     const categoryHandler = (event) => {
         const { tagName } = event.target;
@@ -83,7 +85,7 @@ function ProductsPage() {
                             <div className={Styles.mynav}
                                 onClick={categoryHandler}>
 
-                                <li> <BsCupHotFill style={{ fontSize: "2.3rem", padding: "10px", color: "rgb(46, 46, 46)", }} />قهوه گرم</li>
+                                <li> <BsCupHotFill style={{ fontSize: "2.3rem", padding: "10px", color: "rgb(46, 46, 46)", }} />pasta</li>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
