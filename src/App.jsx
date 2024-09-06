@@ -15,7 +15,7 @@ function App() {
     <ProductsProvider>
       <Headertop />
       <Routes>
-        <Route index element={<Navigate to="/Products" replace />} />
+        <Route index element={<Navigate to="hoop-six.vercel.app/Products" replace />} />
         <Route path="/Products" element={<ProductsPage />} />
         <Route path="/Products/:id" element={<DetailsPage />} />
         <Route path="/CheckOut" element={<CheckOut />} />
