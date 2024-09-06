@@ -9,11 +9,13 @@ import ProductsProvider from "./Context/ProductContext"
 
 
 import Headertop from "./Pages/Headertop"
+import CartProvider from './Context/CartContext'
 function App() {
 
   return (
     <ProductsProvider>
       <Headertop />
+      <CartProvider>
       <Routes>
         <Route index element={<Navigate to="/Products" replace />} />
         <Route path="/Products" element={<ProductsPage />} />
@@ -21,6 +23,7 @@ function App() {
         <Route path="/CheckOut" element={<CheckOut />} />
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
+      </CartProvider>
     </ProductsProvider>
   )
 }

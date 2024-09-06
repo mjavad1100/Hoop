@@ -19,8 +19,8 @@
     margin: auto;
 }
 .sidebar li{
-    padding:25%;
-    color:rgb(46, 46, 46);
+    padding:20%;
+    color:rgb(68, 59, 59);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,4 +53,9 @@ margin-top: 0px;
     font-size: 2.3rem;
     padding: 10px;
     color: #2f6a68;
+}
+.selected{
+    background-color: #bdc7c6;
+    color: #c345a8;
+    border-radius: 20px;
 }

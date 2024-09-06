@@ -4,10 +4,15 @@ import { GiHeartPlus } from "react-icons/gi";
 import { Link } from "react-router-dom";
 // import { shortestText } from "../Help/Helper";
 import styles from "./Card.module.css";
+import { useCart } from "../Context/CartContext";
 
 
 function Card({ data }) {
     const { id, title, image, price, recepi } = data;
+    const [state, dispatch] = useCart();
+    const clickHandler = () =>{
+dispatch({type:"add",payload:data});
+    };
     return (
         <div className={styles.card}>
             <img src={image} alt={title} />
@@ -27,7 +32,7 @@ function Card({ data }) {
                         <TbListDetails />
                     </Link>
                     <div>
-                        <button>
+                        <button onClick={clickHandler}>
                             <GiHeartPlus />
 
                         </button>

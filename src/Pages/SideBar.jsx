@@ -13,7 +13,7 @@ import { createQueryObject } from '../Help/Helper';
 
 
 
-function SideBar({query, setQuery }) {
+function SideBar({ query, setQuery }) {
     const categoryHandler = (event) => {
         const { tagName } = event.target;
         const category = event.target.innerText;
@@ -32,61 +32,61 @@ function SideBar({query, setQuery }) {
 
                 <SwiperSlide >
                     <div className={Styles.mynav}>
-                        <li onClick={categoryHandler}>همه ی موارد</li>
+                        <li className={query.category === "همه ی موار " ? Styles.selected : null}onClick={categoryHandler}>همه ی موارد</li>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={Styles.mynav}
                         onClick={categoryHandler}>
 
-                        <li> <BsCupHotFill className={Styles.myicon} />قهوه گرم</li>
+                        <li className={query.category === "قهوه گرم" ? Styles.selected : null}> <BsCupHotFill className={Styles.myicon} />قهوه گرم</li>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={Styles.mynav} onClick={categoryHandler}>
-                        <li><FaPizzaSlice className={Styles.myicon}  />
+                        <li className={query.category === "پیتزا" ? Styles.selected : null}><FaPizzaSlice className={Styles.myicon} />
                             پیتزا</li>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={Styles.mynav} onClick={categoryHandler}>
-                        <li><GiSandwich className={Styles.myicon} />
+                        <li className={query.category === "پاستا" ? Styles.selected : null}><GiSandwich className={Styles.myicon} />
                             پاستا</li>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={Styles.mynav} onClick={categoryHandler}>
-                        <li><FaPizzaSlice className={Styles.myicon} />
+                        <li className={query.category === "" ? Styles.selected : null}><FaPizzaSlice className={Styles.myicon} />
                             women's clothing</li>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={Styles.mynav} onClick={categoryHandler}>
-                        <li><RiDrinks2Fill style={{ fontSize: "2.3rem", padding: "10px", color: "rgb(46, 46, 46)", }} />
+                        <li className={query.category === "" ? Styles.selected : null}><RiDrinks2Fill style={{ fontSize: "2.3rem", padding: "10px", color: "rgb(46, 46, 46)", }} />
                             women's clothing</li>
                     </div>
                 </SwiperSlide><SwiperSlide>
                     <div className={Styles.mynav} onClick={categoryHandler}>
-                        <li>women's clothing</li>
+                        <li className={query.category === "" ? Styles.selected : null}>women's clothing</li>
                     </div>
                 </SwiperSlide><SwiperSlide>
                     <div className={Styles.mynav} onClick={categoryHandler}>
-                        <li>women's clothing</li>
+                        <li className={query.category === "" ? Styles.selected : null}>women's clothing</li>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={Styles.mynav} onClick={categoryHandler}>
-                        <li>women's clothing</li>
+                        <li className={query.category === "قهوه گرم" ? Styles.selected : null}>women's clothing</li>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={Styles.mynav} onClick={categoryHandler}>
-                        <li>women's clothing</li>
+                        <li className={query.category === "قهوه گرم" ? Styles.selected : null}>women's clothing</li>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={Styles.mynav} onClick={categoryHandler}>
-                        <li>women's clothing</li>
+                        <li className={query.category === "قهوه گرم" ? Styles.selected : null}>women's clothing</li>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
