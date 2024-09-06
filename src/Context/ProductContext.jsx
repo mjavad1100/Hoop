@@ -8,9 +8,7 @@ function ProductsProvider({ children }) {
     const [products, setProducts] = useState([]);
     useEffect(() => {
         const fetchProducts = async () => {
-            try {
-                setProducts(myproducts);
-            } catch (error) { console.log(error.message); }
+            setProducts(myproducts);
         }
         fetchProducts();
     }, []);
