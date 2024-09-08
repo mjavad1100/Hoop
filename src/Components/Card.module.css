@@ -1,27 +1,27 @@
 .card{
-    width: 310px; 
-    /* padding:12px; */
+    width: 250px; 
+    padding:12px;
     margin: 10px;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: rgb(255,255,255);
     /* background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 30%, rgba(47,106,104,0.8) 100%);
     background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 30%, rgba(47,106,104,0.8) 100%);
     background: linear-gradient(90deg, rgba(255,255,255,1) 30%, rgba(47,106,104,0.8) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#2f6a68",GradientType=1);  */
-     border: 1px ridge #2f6a68;
-    border-radius: 15px;
+     border: 1px ridge #427d7b;
+    border-radius: 10px;
 padding-right: 0px;
     padding: 12px;
 
 }
 .card img{
-    width: 125px;
-    margin: auto;
+    width: 245px;
+    /* margin: auto; */
     border-radius: 20px;
-    height: 125px;
+    height: 245px;
     justify-content: center;
     align-items: center;
     border: none;
@@ -31,27 +31,33 @@ padding-right: 0px;
     color: black;
     font-size: 1.2rem;
     margin: 5px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .card p{
     color:black;
     /* background-color: darkgray ; */
     font-size: 0.9rem;
     margin: 5px;
-    text-align: end;
+    opacity: 0.9;
+    text-align: center;
     
 }
 .actions{
     width: 100%;
+    /* margin-top: 10px; */
     display: flex;
     justify-content: space-between;
-    align-items:flex-end;
+    align-items:flex-start;
 }
 .actions a{
     font-size: 1.5rem;
     /* height: 25px; */
     color:#2f6a68;
     cursor: pointer;
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 /* .action div{
     display: flex;
@@ -64,21 +70,18 @@ padding-right: 0px;
 } */
  .actions div button{
     color: darkcyan;
-    background-color: lightgrey;
-    border: none;
     font-size: 1.5rem;
-    height: 30px;
-    width: 30px;
-    line-height: 20px;
-    padding: 3px;
-    margin-right: 5px;
-    border-radius: 8px;
+    line-height:10px;
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
     cursor: pointer;
  }
  .mytitle{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    /* width: 60%; */
+    align-items: center;
     /* padding: 5px; */
     float: right;
 

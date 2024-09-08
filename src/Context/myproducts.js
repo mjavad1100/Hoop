@@ -20,7 +20,7 @@ const myproducts = [
         title:" آمریکانو",
         id:1,
         category:"قهوه گرم",
-        price:"133 تومان",
+        price:"122",
         recepi: "شات اسپرسو + شیر گرم",
     },
     {
@@ -29,14 +29,14 @@ const myproducts = [
         id:2,
         category:"پیتزا",
         price:"135",
-        recepi: "کلم بروکلی ،هویج،کدو،قارچ ،نخود فرنگی",
+        recepi: "  کلم بروکلی ،هویج،کدو،قارچ ،نخود فرنگی خمیر ترش پپرونی",
     },
     {
         image: img10,
         title:" پیتزا پپرونی",
         id:3,
         category:"پیتزا",
-        price:"135$",
+        price:"135",
         recepi: "lorem ipsum is free noot for you",
     },
     {
@@ -44,7 +44,7 @@ const myproducts = [
         title:" پیتزا پپرونی",
         id:4,
         category:"پیتزا",
-        price:"135$",
+        price:"135",
         recepi: "lorem ipsum is free noot for you",
     },
     {
@@ -52,7 +52,7 @@ const myproducts = [
         title:" ماسالا",
         id:5,
         category:"قهوه گرم",
-        price:"133 تومان",
+        price:"133",
         recepi: "2شات اسپرسو + شیر گرم",
     },
     {
@@ -60,7 +60,7 @@ const myproducts = [
         title:" چای",
         id:6,
         category:"قهوه گرم",
-        price:"133 تومان",
+        price:"133",
         recepi: "2شات اسپرسو + شیر گرم",
     },
     {
@@ -68,7 +68,7 @@ const myproducts = [
         title:" چای ماسالا",
         id:7,
         category:"قهوه گرم",
-        price:"133 تومان",
+        price:"133",
         recepi: "2شات اسپرسو + شیر گرم",
     },
     {
@@ -76,7 +76,7 @@ const myproducts = [
         title:" چای لاته",
         id:8,
         category:"قهوه گرم",
-        price:"133 تومان",
+        price:"133",
         recepi: "2شات اسپرسو + شیر گرم",
     },
     {
@@ -84,7 +84,7 @@ const myproducts = [
         title:" موکا",
         id:9,
         category:"قهوه گرم",
-        price:"133 تومان",
+        price:"133",
         recepi: "2شات اسپرسو + شیر گرم",
     },
     {
@@ -92,7 +92,7 @@ const myproducts = [
         title:" پاستا آلفردو",
         id:10,
         category:"پاستا",
-        price:"133 تومان",
+        price:"133",
         recepi: "2شات اسپ شیر گرم",
     },
     {
@@ -100,7 +100,7 @@ const myproducts = [
         title:" پاستا آلفردو",
         id:11,
         category:"پاستا",
-        price:"133 تومان",
+        price:"133",
         recepi: "2شات اسپ شیر گرم",
     },
     {
@@ -108,7 +108,7 @@ const myproducts = [
         title:" پاستا آلفردو",
         id:12,
         category:"پاستا",
-        price:"133 تومان",
+        price:"133",
         recepi: "2شات اسپ شیر گرم",
     },
     {
@@ -116,7 +116,7 @@ const myproducts = [
         title:" پاستا آلفردو",
         id:13,
         category:"پاستا",
-        price:"133 تومان",
+        price:"133",
         recepi: "2شات اسپ شیر گرم",
     },
     {
@@ -124,7 +124,7 @@ const myproducts = [
         title:" پاستا آلفردو",
         id:14,
         category:"پاستا",
-        price:"133 تومان",
+        price:"133",
         recepi: "2شات اسپ شیر گرم",
     },
     {
@@ -132,7 +132,7 @@ const myproducts = [
         title:" پاستا آلفردو",
         id:15,
         category:"پاستا",
-        price:"133 تومان",
+        price:"133",
         recepi: "2شات اسپ شیر گرم",
     },
     {
@@ -140,7 +140,7 @@ const myproducts = [
         title:" پاستا آلفردو",
         id:16,
         category:"پاستا",
-        price:"133 تومان",
+        price:"133",
         recepi: "2شات اسپ شیر گرم",
     },
    

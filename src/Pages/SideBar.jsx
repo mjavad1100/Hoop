@@ -26,7 +26,7 @@ function SideBar({ query, setQuery }) {
             <Swiper
                 navigation={false} modules={[Navigation]}
                 spaceBetween={0}
-                slidesPerView={3.9}
+                slidesPerView={3.8}
             // onSlideChange={() => console.log('slide change')}
             >
 

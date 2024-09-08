@@ -18,18 +18,20 @@ dispatch({type:"add",payload:data});
             <img src={image} alt={title} />
             <div className={styles.mytitle}>
                 <h3>{title}</h3>
+                <p>{recepi}</p>
                 <div style={{ flexDirection: "row", display: "flex" }}>
                     <p> هــــزار
                         تـــومان</p>
                     <p style={{ fontSize: "1.1rem" }}>{price}
                     </p>
-
                 </div>
 
-                <p>{recepi}</p>
-                <div className={styles.actions}>
+                
+                
+            </div>
+            <div className={styles.actions}>
                     <Link to={'/products/${id}'}>
-                        <TbListDetails />
+                        <TbListDetails style={{marginTop:"4px"}} />
                     </Link>
                     <div>
                         <button onClick={clickHandler}>
@@ -38,7 +40,6 @@ dispatch({type:"add",payload:data});
                         </button>
                     </div>
                 </div>
-            </div>
         </div>
     )
 }
