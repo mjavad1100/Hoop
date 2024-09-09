@@ -1,52 +1,54 @@
 .card{
-    width: 250px; 
     margin: 10px;
+    width: 320px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
     background: #ffffff;
 
-     border: 1px dotted #172020;
+     border: 1px solid #2f6a68;
     border-radius: 10px;
 padding-right: 0px;
     padding: 12px;
 
 }
 .card img{
-    width: 250px;
+    width: 50%;
     /* margin: auto; */
     border-radius:12px;
-    height: 250px;
+    height: 150px;
     justify-content: center;
     align-items: center;
-    border: 1px solid #2f6a68;
+    /* border: 1px solid #2f6a68; */
     /* padding: 5px; */
 }
 .card h3{
     color: black;
     font-size: 1.2rem;
     margin: 5px;
-    padding: 10px;
-    text-align: center;
+    /* padding: 10px; */
+    /* text-align: center;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 .card p{
     color:black;
     /* background-color: darkgray ; */
     font-size: 0.9rem;
     margin: 5px;
+    margin-top: 28px;
     opacity: 0.9;
-    text-align: center;
+    text-align: end;
     
 }
 .actions{
-    width: 100%;
+    width: 80%;
+    
     /* margin-top: 10px; */
     display: flex;
     justify-content: space-between;
-    align-items:flex-start;
+    margin-top: auto;
 }
 .actions a{
     font-size: 1.5rem;
@@ -76,10 +78,9 @@ padding-right: 0px;
  .mytitle{
     display: flex;
     flex-direction: column;
-    /* width: 60%; */
-    align-items: center;
+    width: 50%;
+    align-items: flex-end;
     /* padding: 5px; */
-    float: right;
 
     
  }

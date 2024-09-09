@@ -18,7 +18,7 @@ dispatch({type:"add",payload:data});
             <img src={image} alt={title} />
             <div className={styles.mytitle}>
                 <h3>{title}</h3>
-                <p>{recepi}</p>
+                {/* <p>{recepi}</p> */}
                 <div style={{ flexDirection: "row", display: "flex" }}>
                     <p> هــــزار
                         تـــومان</p>
@@ -27,9 +27,7 @@ dispatch({type:"add",payload:data});
                 </div>
 
                 
-                
-            </div>
-            <div className={styles.actions}>
+                <div className={styles.actions}>
                     <Link to={'/products/${id}'}>
                         <TbListDetails style={{marginTop:"4px"}} />
                     </Link>
@@ -40,6 +38,8 @@ dispatch({type:"add",payload:data});
                         </button>
                     </div>
                 </div>
+            </div>
+           
         </div>
     )
 }
