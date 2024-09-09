@@ -2,11 +2,12 @@
   position: relative;
   font-family: sans-serif;
   text-transform: uppercase;
-  font-size: 1.2em;
-  letter-spacing: 4px;
-  text-align: center;
+  font-size: 1rem;
+  padding: 15px;
+  letter-spacing: 6px;
   overflow: hidden;
-  background: linear-gradient(90deg, #e5e1e1, #2f6a68, #2f6a68);
+  text-align: center;
+  background: linear-gradient(90deg, rgb(51, 118, 118), rgb(255, 255, 255), rgb(51, 118, 118));
   background-repeat: no-repeat;
   background-size: 80%;
   animation: animate 5s linear infinite;

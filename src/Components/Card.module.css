@@ -1,5 +1,5 @@
 .card{
-    margin: 10px;
+    margin: 5px;
     width: 320px;
     display: flex;
     flex-direction: row;
@@ -7,8 +7,8 @@
     /* justify-content: center; */
     background: #ffffff;
 
-     border: 1px solid #2f6a68;
-    border-radius: 10px;
+     border: 1px solid #c9d7d7;
+    border-radius: 5px;
 padding-right: 0px;
     padding: 12px;
 
@@ -16,7 +16,7 @@ padding-right: 0px;
 .card img{
     width: 50%;
     /* margin: auto; */
-    border-radius:12px;
+    border-radius:5px;
     height: 150px;
     justify-content: center;
     align-items: center;
@@ -34,17 +34,18 @@ padding-right: 0px;
 }
 .card p{
     color:black;
-    /* background-color: darkgray ; */
+    /* background-color: #2f6a68 ; */
+    border-radius: 10px;
+    /* padding: 5px; */
     font-size: 0.9rem;
     margin: 5px;
     margin-top: 28px;
-    opacity: 0.9;
+    /* opacity: 0.9; */
     text-align: end;
     
 }
 .actions{
     width: 80%;
-    
     /* margin-top: 10px; */
     display: flex;
     justify-content: space-between;

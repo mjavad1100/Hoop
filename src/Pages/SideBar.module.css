@@ -1,16 +1,12 @@
 .sidebar{
     display: flex;
-    background-color: transparent;
+    background-color: #fff;
     align-content: center;
-    margin-left: 15px;
-    margin-right: 15px;
+    padding: 10px;
     margin-bottom:4px ;
-    margin-top: 24px;
-    border-bottom: 1px dotted black;
-    /* width: 500px; */
     align-items: center;
-    /* position: sticky;
-    top: 4px; */
+    position: sticky;
+    top: 0;
 }
 .mylist{
     display: flex;
@@ -54,7 +50,7 @@ margin-top: 0px;
 }
  /* .selected{
      background-color: #bdc7c6; 
-    border-top: 1px solid #2f6a68;
+    border-bottom: 1px solid #2f6a68;
     border-radius: 20px;
 }  */
   .myswiper{
