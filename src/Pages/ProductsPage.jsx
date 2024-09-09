@@ -54,7 +54,7 @@ function ProductsPage() {
             </div> */}
 
             <div className={Styles.container}>
-            <p className={Styles.ptag}>Hoop Can Change EvereyThing</p>
+            {/* <p className={Styles.ptag}>Hoop Can Change EvereyThing</p> */}
 
               <SideBar query={query} setQuery={setQuery} />
                 <div>

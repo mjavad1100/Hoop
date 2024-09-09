@@ -40,11 +40,11 @@ function SideBar({ query, setQuery }) {
                 slidesPerView={4}
             // onSlideChange={() => console.log('slide change')}
             >
-                <SwiperSlide className={Styles.myswiper}>
-                    <div className={Styles.mynav}>
-                        <li className={query.category === "همه ی موار " ? Styles.selected : null} onClick={categoryHandler}>همه ی موارد</li>
-                    </div>
-                </SwiperSlide>
+                    {/* <SwiperSlide className={Styles.myswiper}>
+                        <div className={Styles.mynav}>
+                            <li className={query.category === "همه ی موار " ? Styles.selected : null} onClick={categoryHandler}>همه ی موارد</li>
+                        </div>
+                    </SwiperSlide> */}
                 <SwiperSlide className={Styles.myswiper}>
                     <div className={Styles.mynav} onClick={categoryHandler}
                     >
