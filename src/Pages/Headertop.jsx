@@ -3,8 +3,8 @@ import React from 'react';
 import styles from './baner.module.css';
 const Headertop = () => {
     return (
-        <div style={{height:"60px",backgroundColor:"black", display:"flex",justifyContent:"center" , alignItems:"center"}}>
-            <p className={styles.ptag}>Hoop Can Change EvereyThing</p>
+        <div style={{height:"50px",backgroundColor:"rgb(51, 118, 118)", display:"flex",justifyContent:"center" , alignItems:"center"}}>
+            {/* <p className={styles.ptag}>Hoop Can Change EvereyThing</p> */}
 
         </div>
     );

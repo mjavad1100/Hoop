@@ -7,7 +7,7 @@
   letter-spacing: 6px;
   overflow: hidden;
   text-align: center;
-  background: linear-gradient(90deg, rgb(51, 118, 118), rgb(255, 255, 255), rgb(51, 118, 118));
+  background: linear-gradient(90deg, rgb(51, 118, 118), rgb(0, 0, 0), rgb(51, 118, 118));
   background-repeat: no-repeat;
   background-size: 80%;
   animation: animate 5s linear infinite;

@@ -37,10 +37,14 @@ function SideBar({ query, setQuery }) {
             <Swiper
                 navigation={false} modules={[Navigation]}
                 spaceBetween={16}
-                slidesPerView={2}
+                slidesPerView={4}
             // onSlideChange={() => console.log('slide change')}
             >
-
+                <SwiperSlide className={Styles.myswiper}>
+                    <div className={Styles.mynav}>
+                        <li className={query.category === "همه ی موار " ? Styles.selected : null} onClick={categoryHandler}>همه ی موارد</li>
+                    </div>
+                </SwiperSlide>
                 <SwiperSlide className={Styles.myswiper}>
                     <div className={Styles.mynav} onClick={categoryHandler}
                     >
@@ -97,33 +101,6 @@ function SideBar({ query, setQuery }) {
                         <img src={img9} />
 
                         <li className={query.category === "قهوه گرم" ? Styles.selected : null}>women's</li>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className={Styles.myswiper}>
-                    <div className={Styles.mynav} onClick={categoryHandler}>
-                        <img src={img10} />
-
-                        <li className={query.category === "قهوه گرم" ? Styles.selected : null}>women's</li>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className={Styles.myswiper}>
-                    <div className={Styles.mynav} onClick={categoryHandler}>
-                        <li className={query.category === "قهوه گرم" ? Styles.selected : null}>women's</li>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className={Styles.myswiper}>
-                    <div className={Styles.mynav} onClick={categoryHandler}>
-                        <li>women's</li>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className={Styles.myswiper}>
-                    <div className={Styles.mynav} onClick={categoryHandler}>
-                        <li>women's</li>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className={Styles.myswiper}>
-                    <div className={Styles.mynav} onClick={categoryHandler}>
-                        <li>women's</li>
                     </div>
                 </SwiperSlide>
 
