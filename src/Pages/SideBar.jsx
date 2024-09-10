@@ -25,12 +25,8 @@ import img10 from '../assets/Tea-main-icon.svg'
 
 
 function SideBar({ query, setQuery }) {
-    const categoryHandler = (event) => {
-        const { tagName } = event.target;
-        const category = event.target.innerText;
-        if (tagName !== "LI") return;
+    const categoryHandler = (category) => {
         setQuery((query) => createQueryObject(query, { category }));
-
     };
     return (
         <div className={Styles.sidebar}>
@@ -45,8 +41,8 @@ function SideBar({ query, setQuery }) {
                             <li className={query.category === "همه ی موار " ? Styles.selected : null} onClick={categoryHandler}>همه ی موارد</li>
                         </div>
                     </SwiperSlide> */}
-                <SwiperSlide className={Styles.myswiper}>
-                    <div className={Styles.mynav} onClick={categoryHandler}
+                <SwiperSlide className={Styles.myswiper}  onClick={() => categoryHandler("قهوه گرم")}>
+                    <div className={Styles.mynav}
                     >
                         <img src={img2} />
                         <li className={query.category === "قهوه گرم" ? Styles.selected : null}>قهوه گرم</li>
