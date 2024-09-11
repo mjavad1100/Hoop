@@ -10,7 +10,7 @@ import { Navigation } from 'swiper/modules';
 // import { BsCupHotFill } from "react-icons/bs";
 // import { GiSandwich } from "react-icons/gi";
 import { createQueryObject } from '../Help/Helper';
-import img2 from '../assets/cold-coffee-icon.svg'
+import img2 from '../assets/american-pizza-1.svg'
 import img3 from '../assets/Cold-bar-icon.svg'
 import img4 from '../assets/shake-and glasse-icon.svg'
 import img5 from '../assets/Hot-bar-icon.svg'
@@ -44,20 +44,20 @@ function SideBar({ query, setQuery }) {
                 <SwiperSlide className={Styles.myswiper}  onClick={() => categoryHandler("قهوه گرم")}>
                     <div className={Styles.mynav}
                     >
-                        <img src={img2} />
+                        <img src={img3}  />
                         <li className={query.category === "قهوه گرم" ? Styles.selected : null}>قهوه گرم</li>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className={Styles.myswiper}>
-                    <div className={Styles.mynav} onClick={categoryHandler}>
-                        <img src={img3} />
+                <SwiperSlide className={Styles.myswiper} onClick={() => categoryHandler("پیتزا")}>
+                    <div className={Styles.mynav}>
+                        <img src={img2} style={{width:"50px", height:"50px"}}/>
 
                         <li className={query.category === "پیتزا" ? Styles.selected : null}>
                             پیتزا</li>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className={Styles.myswiper}>
-                    <div className={Styles.mynav} onClick={categoryHandler}>
+                <SwiperSlide className={Styles.myswiper} onClick={() => categoryHandler("پاستا")}>
+                    <div className={Styles.mynav}>
                         <img src={img4} />
 
                         <li className={query.category === "پاستا" ? Styles.selected : null}>
