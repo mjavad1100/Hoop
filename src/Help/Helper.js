@@ -14,7 +14,7 @@ const filterProducts = (products, category) => {
     return filteredProducts;
 };
 const createQueryObject = (currentQuery, newQuery) => {
-    if (newQuery.category === "همه ی موارد") {
+    if (newQuery.category === "همه‌ی موارد") {
         const { category, ...rest } = currentQuery;
         return rest;
     }

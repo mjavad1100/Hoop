@@ -21,7 +21,7 @@ dispatch({type:"ADD_ITEM",payload:data});
                 <h3>{title}</h3>
                 {/* <p>{recepi}</p> */}
                 <div style={{ flexDirection: "row", display: "flex" }}>
-                    <p> هــــزار
+                    <p> 
                         تـــومان</p>
                     <p style={{ fontSize: "1.1rem" }}>{price}
                     </p>
