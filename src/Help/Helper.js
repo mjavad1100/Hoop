@@ -30,9 +30,14 @@ const getInitialQuery = (searchParams) => {
     const search = searchParams.get("search");
     if (category) query.category = category
     if (search) query.search = search
-
-    return (query) ; 
-
+    return (query);
 };
+    const sumProducts = (Products) => {
+        const itemsCounter = Products.reduce((counter, product) => counter + product.quantity, 0);
+        const total = Products.reduce((total, product) => total + product.price * product.quantity, 0)
+        return {itemsCounter,total};
+    };
 
-export { shortestText, searchProducts, filterProducts, createQueryObject, getInitialQuery };
+
+
+export { shortestText, searchProducts, filterProducts, createQueryObject, getInitialQuery, sumProducts };
