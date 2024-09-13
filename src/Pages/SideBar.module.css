@@ -16,7 +16,7 @@
     margin: auto;
 }
 .sidebar li{
-padding: 10px;
+padding: 4px;
     color:rgb(68, 59, 59);
     display: flex;
     flex-direction: column;
@@ -48,13 +48,14 @@ margin-top: 0px;
     padding: 10px;
     color: #3b6160;
 }
- /* .selected{
-     background-color: #bdc7c6; 
-    border-bottom: 1px solid #2f6a68;
-    border-radius: 20px;
-}  */
+ .selected{
+     /* background-color: #bdc7c6;  */
+    border-bottom: 1px inset #2f6a68;
+    border-radius: 8px;
+} 
   .myswiper{
     width: 80px !important;
     height: 100px !important;
+    cursor: pointer;
     /* border: 1px solid #3b6160; */
   }

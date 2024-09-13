@@ -7,6 +7,7 @@ import styles from "./Card.module.css";
 import { useCart } from "../Context/CartContext";
 import { MdDeleteOutline } from "react-icons/md";
 import { productQuantity } from "../Help/Helper";
+import { RiStickyNoteAddFill } from "react-icons/ri";
 
 
 function Card({ data }) {
@@ -45,7 +46,7 @@ function Card({ data }) {
                         {!!quantity && <span>{quantity}</span>
                         }
                         {quantity === 0 ? (<button onClick={() => clickHandler("ADD_ITEM")}>
-                            <GiHeartPlus />
+                            <RiStickyNoteAddFill />
                         </button>) : (<button onClick={() => clickHandler("INCREASE")}>
                             +
                         </button>)}
