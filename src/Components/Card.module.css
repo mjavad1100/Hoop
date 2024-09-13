@@ -5,9 +5,9 @@
     flex-direction: row;
     /* align-items: center; */
     /* justify-content: center; */
-    background: #ffffff;
+    background: #ffff;
 
-     border: 1px solid #c9d7d7;
+     border: 1px solid #2f6a68;
     border-radius: 5px;
 padding-right: 0px;
     padding: 12px;
@@ -34,10 +34,11 @@ padding-right: 0px;
 }
 .card p{
     color:black;
-    /* background-color: #2f6a68 ; */
-    border-radius: 10px;
+    background-color: #f6f5fb ;
+    border-radius: 5px;
     /* padding: 5px; */
     font-size: 0.9rem;
+    padding: 2%;
     margin: 5px;
     margin-top: 28px;
     /* opacity: 0.9; */
@@ -45,36 +46,41 @@ padding-right: 0px;
     
 }
 .actions{
-    width: 80%;
-    /* margin-top: 10px; */
+    width: 90%;
     display: flex;
     justify-content: space-between;
     margin-top: auto;
 }
 .actions a{
     font-size: 1.5rem;
-    /* height: 25px; */
+    height: 25px;
     color:#2f6a68;
     cursor: pointer;
-    /* margin-left: 15px; */
 }
-/* .action div{
+.actions div{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-. actions div span{
+.actions div span{
     width: 20px;
     text-align: center;
-    margin: 0 10px;
-} */
+    margin: 0 5px;
+}
  .actions div button{
     color: darkcyan;
     font-size: 1.5rem;
-    line-height:10px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    line-height:17px;
+    height: 32px;
+    width: 32px;
     border: none;
     border-radius: 10px;
-    padding: 4px;
+    /* padding: 2px; */
     cursor: pointer;
+    
  }
  .mytitle{
     display: flex;
