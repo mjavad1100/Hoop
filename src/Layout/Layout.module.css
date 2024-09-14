@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    color: aqua;
+    padding: 20px 20px;
+    /* margin: 10px 10px 60px; */
+    position: sticky;
+    top: 0;
+}
+.header a{
+    color: #347676;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.header div{
+    font-size: 1.6rem;
+    background-color: rgb(196, 204, 210);
+    text-align: center;
+    color: aqua;
+    width: 30px;
+    height: 30px;
+    border-radius: 9px;
+    padding: 3px;
+    position: relative;
+}
+.header span{
+     font-size: 0.9rem;
+     width: 20px;
+     height: 20px;
+     line-height: 20px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 50%;
+     position: absolute;
+     top: -10px;
+     right: -10px ;
+}

@@ -1,5 +1,5 @@
-import { TbListDetails, TbShoppingBagCheck, } from "react-icons/tb";
-import { GiHeartPlus } from "react-icons/gi";
+import { TbListDetails } from "react-icons/tb";
+// import { GiHeartPlus } from "react-icons/gi";
 
 import { Link } from "react-router-dom";
 // import { shortestText } from "../Help/Helper";
@@ -14,7 +14,6 @@ function Card({ data }) {
     const { id, title, image, price, recepi } = data;
     const [state, dispatch] = useCart();
     const quantity = productQuantity(state, id);
-    console.log(quantity);
     const clickHandler = (type) => {
         dispatch({ type, payload: data });
     };
@@ -23,19 +22,17 @@ function Card({ data }) {
             <img src={image} alt={title} />
             <div className={styles.mytitle}>
                 <h3>{title}</h3>
-                {/* <p>{recepi}</p> */}
                 <div style={{ flexDirection: "row", display: "flex" }}>
                     <p>
                         تـــومان</p>
                     <p style={{ fontSize: "1.1rem" }}>{price}
                     </p>
                 </div>
-
-
                 <div className={styles.actions}>
-                    <Link to={'/products/${id}'}>
+                    <Link to={`/products/${id}`}>
                         <TbListDetails style={{ marginTop: "4px" }} />
                     </Link>
+
                     <div>
                         {quantity === 1 && (<button onClick={() => clickHandler("REMOVE_ITEM")}>
                             <MdDeleteOutline />

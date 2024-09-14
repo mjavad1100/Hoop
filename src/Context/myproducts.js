@@ -16,9 +16,9 @@ import img13 from '../assets/americanoo.webp'
 
 const myproducts = [
     {
+        id:1,
         image: img13,
         title:" اسپرسو",
-        id:1,
         category:"گرم اسپرسو",
         price:"98.000",
         recepi: "شات اسپرسو + شیر گرم",

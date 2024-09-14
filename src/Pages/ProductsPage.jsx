@@ -47,23 +47,20 @@ function ProductsPage() {
  
     return (
         <>
-            {/* <div style={{ backgroundColor: "white", display: "flex", flexDirection: "row", marginTop: "15px" }}>
+            <div style={{ backgroundColor: "white", display: "flex", flexDirection: "row", marginTop: "15px" }}>
                 <img src={img1} className={Styles.image} style={{ width: "175px", height: "200px", marginLeft: "auto" }} />
                 <div style={{ width: "1.6px", height: "100px", marginTop: "auto", background: "black", marginBottom: "auto" }}></div>
                 <img src={img2} className={Styles.image} style={{ width: "175px", height: "200px", marginRight: "auto" }} />
             </div>
-             */}
+            
 
             <div className={Styles.container}>
-            {/* <p className={Styles.ptag}>Hoop Can Change EvereyThing</p> */}
 
               <SideBar query={query} setQuery={setQuery} />
-                <div>
-                {/* <SearchBox search={search} setSearch={setSearch} setQuery={setQuery }/> */}
                     <div className={Styles.products}>
                         {!displayed.length && <Loader />}
-                        {displayed.map((p) => <Card key={p.id} data={p} />)}</div>
-                </div>
+                        {displayed.map((p) => <Card key={p.id} data={p} />)} </div>
+                        
 
             </div>
         </>
