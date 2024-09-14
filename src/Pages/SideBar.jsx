@@ -7,7 +7,7 @@ import { createQueryObject } from '../Help/Helper';
 import img2 from '../assets/coffee-maker.png';
 import img3 from '../assets/coffee.png';
 import img4 from '../assets/Hot-Drink.svg';
-import img5 from '../assets/Hot-bar-icon.svg';
+// import img5 from '../assets/Hot-bar-icon.svg';
 import img6 from '../assets/iced-coffee.png';
 import img7 from '../assets/Fruit-Juice-1.svg';
 import img8 from '../assets/smoothie.png';
@@ -35,6 +35,7 @@ function SideBar({ query, setQuery }) {
 
     return (
         <div className={Styles.sidebar}>
+            
             <Swiper
                 navigation={false}
                 modules={[Navigation]}

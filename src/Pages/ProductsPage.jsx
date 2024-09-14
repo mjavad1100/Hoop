@@ -52,6 +52,7 @@ function ProductsPage() {
                 <div style={{ width: "1.6px", height: "100px", marginTop: "auto", background: "black", marginBottom: "auto" }}></div>
                 <img src={img2} className={Styles.image} style={{ width: "175px", height: "200px", marginRight: "auto" }} />
             </div>
+            
 
             <div className={Styles.container}>
             {/* <p className={Styles.ptag}>Hoop Can Change EvereyThing</p> */}
