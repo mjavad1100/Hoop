@@ -38,8 +38,8 @@ function SideBar({ query, setQuery }) {
             <Swiper
                 navigation={false}
                 modules={[Navigation]}
-                spaceBetween={15}
-                slidesPerView={4}
+                spaceBetween={25}
+                slidesPerView={3}
             >
                 {categories.map((category, index) => (
                     <SwiperSlide key={index} className={Styles.myswiper} onClick={() => categoryHandler(category.name)}>

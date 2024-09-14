@@ -17,7 +17,7 @@
 }
 .sidebar li{
 padding: 14px;
-width: 100px;
+/* width: 110px; */
     color:rgb(68, 59, 59);
     font-size: 14px;
     display: flex;
