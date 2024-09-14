@@ -3,7 +3,7 @@
     background-color: #347676;
     align-content: center;
     padding: 10px;
-    margin-bottom:4px ;
+    margin-bottom:20px ;
     align-items: center;
     position: sticky;
     top: 0;
@@ -19,7 +19,7 @@
 .sidebar li{
 padding: 14px;
 padding-bottom: 0;
-width: 110px;
+width: 100px;
     color:rgb(223, 223, 223);
     font-size: 14px;
     display: flex;
