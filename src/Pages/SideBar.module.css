@@ -1,13 +1,13 @@
 .sidebar{
     display: flex;
-    background-color: #347676;
+    background-color: #ffff;
     align-content: center;
     /* border-top: 1px solid white; */
     padding: 10px;
     margin-bottom:20px ;
     align-items: center;
     position: sticky;
-    top: 76px;
+    top: 121px;
 
 }
 .mylist{
@@ -21,7 +21,7 @@
 padding: 14px;
 padding-bottom: 0;
 width: 100px;
-    color:rgb(223, 223, 223);
+    color:rgb(17, 13, 13);
     font-size: 14px;
     display: flex;
     flex-direction: column;

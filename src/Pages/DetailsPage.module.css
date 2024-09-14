@@ -1,0 +1,43 @@
+
+ .information a{
+    display: flex;
+    align-items: center;
+    /* background-color: #a3bdbc; */
+    padding: 5px 5px;
+    color: #fff;
+    border-radius: 12px;
+ }
+ .information a svg{
+    margin-right: 10px;
+ }
+ .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    min-height: 1000px;
+    width: 100%;
+ }
+ .container img{
+    width: 300px;
+    padding: 15px 20px;
+    background-color: #fff;
+    border: 2px dashed #a3bdbc;
+    border-radius: 50px;
+    margin:10px;
+ }
+ .description{
+    color: grey;
+    width: 300px;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+ }
+ .category{
+    margin-bottom: 10px;
+ }
+ .button{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+ }

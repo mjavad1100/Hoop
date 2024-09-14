@@ -4,14 +4,14 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import { createQueryObject } from '../Help/Helper';
-import img2 from '../assets/coffee-maker.png';
-import img3 from '../assets/coffee.png';
-import img4 from '../assets/Hot-Drink.svg';
+import img2 from '../assets/icons/Asset 1.svg';
+import img3 from '../assets/icons/Asset 2.svg'
+import img4 from '../assets/icons/Asset 3.svg';
 // import img5 from '../assets/Hot-bar-icon.svg';
-import img6 from '../assets/iced-coffee.png';
-import img7 from '../assets/Fruit-Juice-1.svg';
-import img8 from '../assets/smoothie.png';
-import img9 from '../assets/frappe.png';
+import img6 from '../assets/icons/Asset 5.svg';
+import img7 from '../assets/icons/Asset 6.svg';
+import img8 from '../assets/icons/Asset 7.svg';
+import img9 from '../assets/icons/Asset 8.svg';
 import img10 from '../assets/matcha-tea.png';
 import img11 from '../assets/0.png';
 
