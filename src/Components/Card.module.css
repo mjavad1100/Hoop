@@ -26,7 +26,8 @@ padding-right: 0px;
 }
 .card h3{
     color: black;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: lighter;
     margin: 5px;
     /* padding: 10px; */
     /* text-align: center;
