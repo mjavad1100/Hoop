@@ -60,4 +60,6 @@ margin-top: 0px;
     /* width: 80px !important;
     height: 100px !important; */
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+
   }
