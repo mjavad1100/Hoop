@@ -21,14 +21,14 @@ function SideBar({ query, setQuery }) {
 
     const categories = [
         { name: "همه‌ی موارد", img: null },
-        { name: "قهوه گرم", img: img2 },
-        { name: "پیتزا", img: img3 },
-        { name: "پاستا", img: img4 },
-        { name: "سالاد", img: img6 },
-        { name: "آبمیوه", img: img7 },
-        { name: "کمپیر", img: img8 },
-        { name: "برگر", img: img9 },
-        { name: "استیک", img: img10 },
+        { name: "بر پایه اسپرسو", img: img2 },
+        { name: "بار گرم", img: img3 },
+        { name: "چای بار", img: img4 },
+        { name: "سرد بر پایه اسپرسو", img: img6 },
+        { name: "ماکتیل", img: img7 },
+        { name: "اسموتی", img: img8 },
+        { name: "شیک ها", img: img9 },
+        { name: "ماچا بار", img: img10 },
     ];
 
     return (

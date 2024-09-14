@@ -17,7 +17,9 @@
 }
 .sidebar li{
 padding: 4px;
+width: 100px;
     color:rgb(68, 59, 59);
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     align-items: center;
