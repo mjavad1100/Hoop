@@ -7,6 +7,7 @@
     align-items: center;
     position: sticky;
     top: 0;
+
 }
 .mylist{
     display: flex;
@@ -56,8 +57,7 @@ margin-top: 0px;
     border-radius: 8px;
 }  */
   .myswiper{
-    width: 80px !important;
-    height: 100px !important;
+    /* width: 80px !important;
+    height: 100px !important; */
     cursor: pointer;
-    /* border: 1px solid #3b6160; */
   }
