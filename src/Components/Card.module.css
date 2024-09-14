@@ -7,8 +7,8 @@
     /* justify-content: center; */
     background: #ffff;
 
-     border: 1px solid #2f6a68;
-    border-radius: 5px;
+     border: 1px dotted #2f6a68;
+    border-radius: 20px;
 padding-right: 0px;
 
     padding: 12px;
@@ -17,7 +17,7 @@ padding-right: 0px;
 .card img{
     width: 50%;
     /* margin: auto; */
-    border-radius:5px;
+    border-radius:20px;
     height: 150px;
     justify-content: center;
     align-items: center;
