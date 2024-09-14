@@ -16,7 +16,7 @@ function DetailsPage  () {
                 <div>
                     <span className={styles.price}>{productDetails.price}</span>
                     <Link to="/products" className={styles.button}>
-                   <button> back to menu</button>
+                   <button>بازگشت</button>
                     </Link>
                 </div>
 

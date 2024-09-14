@@ -21,9 +21,9 @@
  }
  .container img{
     width: 300px;
-    padding: 15px 20px;
+    padding: 5px 5px;
     background-color: #fff;
-    border: 2px dashed #a3bdbc;
+    border: 1px solid #a3bdbc;
     border-radius: 50px;
     margin:10px;
  }
@@ -38,6 +38,7 @@
  }
  .button{
     text-align: center;
+    background-color: #a3bdbc;
     align-items: center;
     justify-content: center;
  }
