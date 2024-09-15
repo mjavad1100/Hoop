@@ -4,7 +4,7 @@ import { useCart } from "../Context/CartContext";
 import styles from './Layout.module.css';
 import { PiNotepadBold } from "react-icons/pi";
 import img1 from '../assets/hope-03.svg';
-import img2 from '../assets/sticky-note.png'
+import img2 from '../assets/sticky-note1.png'
 
 import { PiShoppingCartSimpleBold } from "react-icons/pi";
 function Layout({ children }) {
