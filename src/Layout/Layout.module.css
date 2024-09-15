@@ -9,10 +9,10 @@
     top: 0;
 }
 .mynotelist{
-    background-color: rgb(196, 204, 210);
+    background-color: rgb(255, 255, 255);
     text-align: center;
+    border: 1px solid #154545;
     align-content: center;
-    color: aqua;
     width: 45px;
     height: 45px;
     border-radius: 50%;
@@ -30,23 +30,15 @@
     font-weight: 600;
 
 }
-.header div{
-    font-size: 1.6rem;
-    background-color: rgb(196, 204, 210);
-    text-align: center;
-    color: aqua;
-    width: 30px;
-    height: 30px;
-    border-radius: 9px;
-    padding: 3px;
-    position: relative;
-}
-.header span{
+
+.mynotelist span{
      font-size: 0.9rem;
      width: 20px;
+     color: #154545;
      height: 20px;
+     font-weight: bold;
      line-height: 20px;
-     background-color: rgb(222, 226, 229);
+     background-color: rgb(255, 255, 255);
      border-radius: 50%;
      position: absolute;
      top: -10px;
