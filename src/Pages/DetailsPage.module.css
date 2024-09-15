@@ -7,6 +7,7 @@
     color: #fff;
     border-radius: 12px;
  }
+
  .information a svg{
     margin-right: 10px;
  }
@@ -20,7 +21,7 @@
     width: 100%;
  }
  .container img{
-    width: 300px;
+    width: 250px;
     padding: 5px 5px;
     background-color: #fff;
     border: 1px solid #a3bdbc;
@@ -29,7 +30,7 @@
  }
  .description{
     color: grey;
-    width: 300px;
+    width: 250px;
     font-size: 1.1rem;
     margin-bottom: 10px;
  }

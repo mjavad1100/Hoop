@@ -12,8 +12,8 @@ function Layout({ children }) {
     return (
         <>
             <header className={styles.header}>
-                <Link to="/products">             
-                   <img src={img1} style={{width:"150px", height:"70px"}} />
+                <Link to="/products">
+                    <img src={img1} style={{ width: "150px", height: "70px" }} />
                 </Link>
                 <div>
 
@@ -26,6 +26,14 @@ function Layout({ children }) {
             </header>
 
             {children}
+            <footer className={styles.myfooter}>
+                <div className={styles.mynotelist}>
+                    <Link to="/checkout">
+                        <PiNotepadBold />
+                        {!!state.itemsCounter && <span>{state.itemsCounter}</span>}
+                    </Link>
+                </div>
+            </footer>
         </>
     );
 }
