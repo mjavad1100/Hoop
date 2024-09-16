@@ -19,7 +19,6 @@ function DetailsPage  () {
             <div className={styles.information}>
                 <h3 className={styles.title}>{productDetails.title}</h3>
                 <p className={styles.description}>{productDetails.recepi}</p>
-                <p className={styles.category}>{productDetails.category}</p>
                     <span className={styles.price}>{productDetails.price}</span>
 
             </div>

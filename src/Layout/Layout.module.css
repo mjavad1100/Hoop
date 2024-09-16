@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: #347676;
-    padding:0px 10px;
+    padding:5px 10px;
     /* margin: 10px 10px 60px; */
     position: sticky;
     top: 0;
@@ -42,4 +42,12 @@
      top: -7px;
      right: -7px ;
      border: 1px solid #347676;
+}
+.icon{
+    font-size: 1.3rem;
+    color:#347676;
+    margin: 10px 6px;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 10px;
 }
