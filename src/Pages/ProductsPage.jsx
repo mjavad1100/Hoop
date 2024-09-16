@@ -7,8 +7,8 @@ import { searchProducts, filterProducts, getInitialQuery } from '../Help/Helper'
 import Card from '../Components/Card';
 import Loader from '../Components/Loader';
 
-import img1 from '../assets/hope-03.svg';
-import img2 from '../assets/hope-02.svg';
+import img2 from '../assets/farsi white.png';
+import img1 from '../assets/left english white.png';
 
 import SearchBox from './SearchBox';
 import SideBar from './SideBar';
@@ -48,8 +48,8 @@ function ProductsPage() {
     return (
         <>
             <div style={{ backgroundColor: "#84c3c8", display: "flex", height:"80px",padding:"20px", flexDirection: "row", }}>
-                <img src={img1} className={Styles.image} style={{ width: "175px", height: "80px", marginLeft: "auto" }} />
-                <div style={{ width: "1.6px", height: "80px", marginTop: "auto", background: "black", marginBottom: "auto" }}></div>
+                <img src={img1} className={Styles.image} style={{ width: "200px", height: "80px", marginLeft: "auto" }} />
+                <div style={{ width: "1.6px", height: "80px", marginTop: "auto", background: "white", marginBottom: "auto" }}></div>
                 <img src={img2} className={Styles.image} style={{ width: "200px", height: "80px", marginRight: "auto" }} />
             </div>
             
