@@ -43,11 +43,10 @@ function SideBar({ query, setQuery }) {
         { name: "شیک", img: img2 },
         { name: "صبحانه", img:img14 },
         { name: "برگر", img: img13 },
-        { name: "پیش غدا", img: img14 },
+        { name: "پیش غدا", img: img15 },
         { name: "غدای اصلی", img: img20 },
         { name: "ساندویچ", img: img17 },
         { name: "پاستا", img: img16 },
-        { name: "استیک", img: img19 },
     ];
 
     return (
