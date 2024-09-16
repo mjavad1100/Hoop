@@ -4,24 +4,24 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import { createQueryObject } from '../Help/Helper';
-import img1 from '../assets/icons/Asset 1.svg';
-import img2 from '../assets/icons/Asset 2.svg'
+import img1 from '../assets/icons3/ice.png';
+import img2 from '../assets/icons3/milkshake.png'
 import img3 from '../assets/icons/Asset 3.svg';
 // import img5 from '../assets/Hot-bar-icon.svg';
 import img5 from '../assets/icons/Asset 5.svg';
-import img6 from '../assets/icons/Asset 6.svg';
-import img7 from '../assets/icons/Asset 7.svg';
+import img6 from '../assets/icons3/coffee.png';
+import img7 from '../assets/icons3/tea.png';
 import img8 from '../assets/icons/Asset 8.svg';
 import img10 from '../assets/coffee.png';
 import img11 from '../assets/0.png';
-import img13 from '../assets/icons 2/burger.png';
-import img14 from '../assets/icons 2/english-breakfast.png';
-import img15 from '../assets/icons 2/fries.png';
-import img16 from '../assets/icons 2/pasta.png';
-import img17 from '../assets/icons 2/panini.png';
-import img18 from '../assets/icons 2/salad.png';
-import img19 from '../assets/icons 2/steak.png';
-import img20 from '../assets/icons 2/bibimbap.png';
+import img13 from '../assets/icons3/burger.png';
+import img14 from '../assets/icons3/english-breakfast.png';
+import img15 from '../assets/icons3/french-fries.png';
+import img16 from '../assets/icons3/spaghetti.png';
+import img17 from '../assets/icons3/sandwich.png';
+// import img18 from '../assets/icons 2/salad.png';
+// import img19 from '../assets/icons 2/steak.png';
+import img20 from '../assets/icons3/tray.png';
 
 
 
@@ -35,9 +35,9 @@ function SideBar({ query, setQuery }) {
         { name: "همه‌ی موارد", img: img11 },
         { name: "گرم اسپرسو", img: img6 },
         { name: "سرد  اسپرسو", img: img1 },
-        { name: "بار گرم", img: img10 },
+        { name: "بار گرم", img: img6 },
         { name: "چای بار", img: img7 },
-        { name: "ماچا بار", img: img5 },
+        { name: "ماچا بار", img: img6 },
         { name: "ماکتیل", img: img8 },
         { name: "اسموتی", img: img3},
         { name: "شیک", img: img2 },
