@@ -18,10 +18,11 @@ function Layout({ children }) {
     return (
         <>
             <header className={styles.header}>
-                <div>
-                <FaInstagram path="" className={styles.icon}/>
+                <div style={{height:"40px"}}>
+                <p className={styles.ptag}>Hoop Change EvereyThing</p>
+                {/* <FaInstagram path="" className={styles.icon}/>
                 <MdOutlineMyLocation className={styles.icon}/>
-                <IoCallOutline className={styles.icon}/>
+                <IoCallOutline className={styles.icon}/> */}
 
                 </div>
                 {/* <Link to="/products">
