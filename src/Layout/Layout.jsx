@@ -15,15 +15,15 @@ function Layout({ children }) {
                 <Link to="/products">
                     <img src={img1} style={{ width: "150px", height: "70px" }} />
                 </Link>
+            </header>
+
+            {children}
                 <div className={styles.mynotelist}>
                     <Link to="/checkout">
                             <img src={img2}/>
                         {!!state.itemsCounter && <span>{state.itemsCounter}</span>}
                     </Link>
                 </div>
-            </header>
-
-            {children}
         </>
     );
 }
