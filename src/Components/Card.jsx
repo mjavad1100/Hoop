@@ -22,7 +22,7 @@ function Card({ data }) {
             <img src={image} alt={title} />
             <div className={styles.mytitle}>
                 <h3>{title}</h3>
-                <div style={{ flexDirection: "row", display: "flex" }}>
+                <div style={{ flexDirection: "row", display: "flex" ,justifyContent:"start",justifyContent:"center"}}>
                     <p>
                         تـــومان</p>
                     <p style={{ fontSize: "1.1rem" }}>{price}
