@@ -56,7 +56,7 @@ padding-right: 0px;
 .actions a{
     font-size: 1.5rem;
     height: 25px;
-    color:#2f6a68;
+    color:#84c3c8;
     cursor: pointer;
 }
 .actions div{
@@ -70,7 +70,7 @@ padding-right: 0px;
     margin: 0 5px;
 }
  .actions div button{
-    color: darkcyan;
+    color: #84c3c8;
     font-size: 1.5rem;
     justify-content: center;
     align-items: center;
