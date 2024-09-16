@@ -17,18 +17,15 @@ function Layout({ children }) {
     const [state] = useCart();
     return (
         <>
-            <header className={styles.header}>
+            {/* <header className={styles.header}>
                 <div style={{height:"40px"}}>
-                {/* <p className={styles.ptag}>Hoop Change EvereyThing</p> */}
-                {/* <FaInstagram path="" className={styles.icon}/>
-                <MdOutlineMyLocation className={styles.icon}/>
-                <IoCallOutline className={styles.icon}/> */}
+               
 
                 </div>
-                {/* <Link to="/products">
+                <Link to="/products">
                     <img src={img1} style={{ width: "150px", height: "70px" }} />
-                </Link> */}
-            </header>
+                </Link>
+            </header> */}
 
             {children}
                 <div className={styles.mynotelist}>

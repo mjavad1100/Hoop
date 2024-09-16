@@ -1,13 +1,12 @@
-.header{
+/* .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color:#84c3c8 ;
     padding:5px 10px;
-    /* margin: 10px 10px 60px; */
     position: sticky;
     top: 0;
-}
+} */
 .mynotelist{
     background-color: rgb(255, 255, 255);
     text-align: center;
