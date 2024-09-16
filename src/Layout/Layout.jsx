@@ -19,7 +19,7 @@ function Layout({ children }) {
         <>
             <header className={styles.header}>
                 <div>
-                <FaInstagram className={styles.icon}/>
+                <FaInstagram path="" className={styles.icon}/>
                 <MdOutlineMyLocation className={styles.icon}/>
                 <IoCallOutline className={styles.icon}/>
 

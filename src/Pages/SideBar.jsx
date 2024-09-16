@@ -14,6 +14,16 @@ import img7 from '../assets/icons/Asset 7.svg';
 import img8 from '../assets/icons/Asset 8.svg';
 import img10 from '../assets/coffee.png';
 import img11 from '../assets/0.png';
+import img13 from '../assets/icons 2/burger.png';
+import img14 from '../assets/icons 2/english-breakfast.png';
+import img15 from '../assets/icons 2/fries.png';
+import img16 from '../assets/icons 2/pasta.png';
+import img17 from '../assets/icons 2/panini.png';
+import img18 from '../assets/icons 2/salad.png';
+import img19 from '../assets/icons 2/steak.png';
+import img20 from '../assets/icons 2/bibimbap.png';
+
+
 
 
 function SideBar({ query, setQuery }) {
@@ -30,7 +40,14 @@ function SideBar({ query, setQuery }) {
         { name: "ماچا بار", img: img5 },
         { name: "ماکتیل", img: img8 },
         { name: "اسموتی", img: img3},
-        { name: "شیک ها", img: img2 },
+        { name: "شیک", img: img2 },
+        { name: "صبحانه", img:img14 },
+        { name: "برگر", img: img13 },
+        { name: "پیش غدا", img: img14 },
+        { name: "غدای اصلی", img: img20 },
+        { name: "ساندویچ", img: img17 },
+        { name: "پاستا", img: img16 },
+        { name: "استیک", img: img19 },
     ];
 
     return (
