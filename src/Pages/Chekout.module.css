@@ -1,0 +1,21 @@
+.button{
+    position: fixed;
+    top: 20px;
+    right: 30px;
+     text-align: center;
+     /* background-color: #a3bdbc; */
+     align-items: center;
+     justify-content: center;
+  }
+  .buttons{
+  padding: 8px;
+    /* margin-top: 20px; */
+    background-color: #a3bdbc;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 13px;
+    border: 1px solid #a3bdbc;
+    /* width: 150px;
+    height: 50px; */
+  }
+ 

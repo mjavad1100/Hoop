@@ -48,9 +48,9 @@ function ProductsPage() {
     return (
         <>
             <div style={{ backgroundColor: "#84c3c8", display: "flex", height:"80px", padding:"10px", flexDirection: "row", }}>
-                <img src={img1} className={Styles.image} style={{ width: "200px", height: "80px", marginLeft: "auto" }} />
+                <img src={img1} className={Styles.image} style={{ width: "180px", height: "80px", marginRight: "auto" }} />
                 <div style={{ width: "1.6px", height: "80px", marginTop: "auto", background: "white", marginBottom: "auto" }}></div>
-                <img src={img2} className={Styles.image} style={{ width: "200px", height: "80px", marginRight: "auto" }} />
+                <img src={img2} className={Styles.image} style={{ width: "180px", height: "80px", marginLeft: "auto" }} />
             </div>
             
 

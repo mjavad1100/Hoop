@@ -24,7 +24,7 @@ body {
     width: 100%;
  }
  .container img{
-    width: 250px;
+    width: 200px;
     padding: 5px 5px;
     background-color: #fff;
     border: 1px solid #a3bdbc;
@@ -42,8 +42,8 @@ body {
  }
  .button{
    position: fixed;
-   top: 40px;
-   right: 10px;
+   top: 20px;
+   right: 30px;
     text-align: center;
     /* background-color: #a3bdbc; */
     
@@ -52,7 +52,7 @@ body {
  }
  .buttons{
  padding: 8px;
-   margin-top: 50px;
+   /* margin-top: 20px; */
    background-color: #a3bdbc;
    border-radius: 50%;
    font-size: 20px;

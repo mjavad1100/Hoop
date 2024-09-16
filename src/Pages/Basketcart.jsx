@@ -2,6 +2,8 @@ import { MdDeleteOutline } from "react-icons/md"
 import styles from './Basketcart.module.css'
 function Basketcart({data,clickHandler}) {
   return (
+    <div className={styles.mycontainer}>
+
     <div className={styles.card}>
         <img src={data.image} alt={data.title}/>
         <p>{data.title}</p>
@@ -12,6 +14,8 @@ function Basketcart({data,clickHandler}) {
             <button onClick={() => clickHandler("INCREASE",data)}>+</button>
         </div>
     </div>
+    </div>
+
   )
 }
 

@@ -5,9 +5,11 @@
     flex-direction: row;
     /* align-items: center; */
     /* justify-content: center; */
-    background: #ffff;
+    background: #84c3c824;
     margin-bottom: 10px;
-     border: 1px solid #447e7c53;
+    box-shadow: 0px 0px 9px -1px rgba(0,196,221,0.38);
+    -webkit-box-shadow: 0px 0px 9px -1px rgba(0,196,221,0.38);
+    -moz-box-shadow: 0px 0px 9px -1px rgba(0,196,221,0.38);     border: 1px solid #184b4a2f;
     /* border-radius: 20px; */
 padding-right: 0px;
 
@@ -36,7 +38,7 @@ padding-right: 0px;
 }
 .card p{
     color:black;
-    background-color: #f6f5fb ;
+    background-color: #84c3c86f ;
     border-radius: 5px;
     /* padding: 5px; */
     font-size: 0.8rem;
