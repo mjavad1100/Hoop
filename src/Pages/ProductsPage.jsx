@@ -7,8 +7,8 @@ import { searchProducts, filterProducts, getInitialQuery } from '../Help/Helper'
 import Card from '../Components/Card';
 import Loader from '../Components/Loader';
 
-import img2 from '../assets/farsi white.png';
-import img1 from '../assets/left english white.png';
+import img2 from '../assets/logo1.png';
+import img1 from '../assets/logo2.png';
 
 import SearchBox from './SearchBox';
 import SideBar from './SideBar';
