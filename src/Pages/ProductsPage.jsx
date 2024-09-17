@@ -56,7 +56,7 @@ function ProductsPage() {
               <SideBar query={query} setQuery={setQuery} />
                     <div className={Styles.products}>
                         {!displayed.length && <Loader />}
-                        {displayed.map((p) => <Card key={p.id} data={p} />)} 
+                        {displayed.map((p) =><Card key={p.id} data={p} />)} 
                         </div>
             </div>
         </>
