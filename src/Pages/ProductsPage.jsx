@@ -52,20 +52,14 @@ function ProductsPage() {
                 <div style={{ width: "1.6px", height: "80px", marginTop: "auto", background: "white", marginBottom: "auto" }}></div>
                 <img src={img2} className={Styles.image} style={{ width: "180px", height: "80px", marginLeft: "auto" }} />
             </div>
-            
-
             <div className={Styles.container}>
-
               <SideBar query={query} setQuery={setQuery} />
                     <div className={Styles.products}>
                         {!displayed.length && <Loader />}
-                        {displayed.map((p) => <Card key={p.id} data={p} />)} </div>
-                        
-
+                        {displayed.map((p) => <Card key={p.id} data={p} />)} 
+                        </div>
             </div>
         </>
-
-
     );
 }
 
