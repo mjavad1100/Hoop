@@ -1,10 +1,10 @@
 .sidebar{
     display: flex;
-    background-color: #ffff;
+    background-color: #ffffff;
     align-content: center;
     /* border-top: 1px solid white; */
     padding: 10px;
-    margin-top: 35px;
+    /* margin-top: 35px; */
     margin-bottom:20px ;
     align-items: center;
     position: sticky;
@@ -22,7 +22,7 @@
 padding: 5px;
 padding-bottom: 0;
 width: 100px;
-    color:rgb(17, 13, 13);
+    color:#131b1b;
     font-size: 14px;
     display: flex;
     flex-direction: column;
